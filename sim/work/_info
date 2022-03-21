@@ -1,0 +1,3293 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/modeltech64_10.4/examples
+va_graycounter
+Z0 !s110 1519313053
+!i10b 1
+!s100 OFFR8=XXh7]9EiIj@Gg[A3
+IJZ?e6D=S_ZgH>RHR66N9C3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/sim
+Z3 w1352348907
+Z4 8C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/sim/altera_mf.v
+Z5 FC:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/sim/altera_mf.v
+L0 49038
+Z6 OL;L;10.4;61
+r1
+!s85 0
+31
+Z7 !s108 1519313048.790000
+Z8 !s107 C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/sim/altera_mf.v|
+Z9 !s90 -reportprogress|300|-work|work|-novopt|-stats=none|C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/sim/altera_mf.v|
+!i113 1
+Z10 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vadd_CP
+Z11 !s110 1519313056
+!i10b 1
+!s100 TYW10ei]3jC]cIabY<[lJ0
+IKUJBG`Bz4aaEQaYRec0o_2
+R1
+R2
+w1519056337
+8C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/add_CP.v
+FC:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/add_CP.v
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1519313056.116000
+!s107 C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/add_CP.v|
+!s90 -reportprogress|300|-work|work|-novopt|-stats=none|C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/add_CP.v|
+!i113 1
+R10
+nadd_@c@p
+vaddcp_ctrl
+R11
+!i10b 1
+!s100 GZRG1`o=TeDkPz<5in8Q:2
+IlKFQTLzblCF=Y<Z`jNlXA1
+R1
+R2
+w1519058505
+8C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/addcp_ctrl.v
+FC:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/addcp_ctrl.v
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1519313056.565000
+!s107 C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/addcp_ctrl.v|
+!s90 -reportprogress|300|-work|work|-novopt|-stats=none|C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/addcp_ctrl.v|
+!i113 1
+R10
+valt3pram
+R0
+!i10b 1
+!s100 7D2DbKTz`^aGC82_ElKA<2
+IDJciDbkm7P]08n;?6_o0@0
+R1
+R2
+R3
+R4
+R5
+L0 47247
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+valt_aeq_s4
+R0
+!i10b 1
+!s100 OHR1HV]cNbeX^GcK>Jm<;2
+IY[[[4H5`K34mDkLlQdkFB0
+R1
+R2
+R3
+R4
+R5
+L0 49989
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+valt_cal
+R0
+!i10b 1
+!s100 gM`CW?OAjVY:k2B>IFM663
+IO9OjCoB6mzJZE3MZm`4U11
+R1
+R2
+R3
+R4
+R5
+L0 49458
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+valt_cal_av
+R0
+!i10b 1
+!s100 45[B^NioY>iDKH@BRNbLm1
+Iga_LNJB3`VRGiljVD=YKF3
+R1
+R2
+R3
+R4
+R5
+L0 49882
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+valt_cal_c3gxb
+R0
+!i10b 1
+!s100 CUiFzRA:8C=mkS>dCz<J21
+I:[DeH4P8jjTNF3lC3_?Yb3
+R1
+R2
+R3
+R4
+R5
+L0 49685
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+valt_cal_mm
+R0
+!i10b 1
+!s100 C[A1<M4O><Ho6[?[9<enN1
+I25cilO2`>k_]K@eVa`V6I1
+R1
+R2
+R3
+R4
+R5
+L0 49560
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+valt_cal_sv
+R0
+!i10b 1
+!s100 UIQjVibPj805kQE@d<m@Z2
+IPZ<66F@n`a2IZTWQ6G]:^2
+R1
+R2
+R3
+R4
+R5
+L0 49785
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+valt_dfe
+R0
+!i10b 1
+!s100 IUY8Cg@Df>eL:j2>hNMR>3
+IAMLT5Yzi7HU][jWF@RP_22
+R1
+R2
+R3
+R4
+R5
+L0 50366
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+valt_eyemon
+R0
+!i10b 1
+!s100 CM8^^ZF8k^`:B@O_hokTJ0
+IdB;@OMQ6He7Sbnl>Q8?AC0
+R1
+R2
+R3
+R4
+R5
+L0 50086
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+valtaccumulate
+Z12 !s110 1519313052
+!i10b 1
+!s100 KfPEf3KJge]UFJC5YgYPO0
+IKe_bK>TVNi8@aNUIXOgWh0
+R1
+R2
+R3
+R4
+R5
+L0 31576
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+valtclklock
+R0
+!i10b 1
+!s100 65J1ARU2CVFL3@KzfVZO^2
+IYdBkL=hFGY?lM6CghLS1U3
+R1
+R2
+R3
+R4
+R5
+L0 42225
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+valtddio_bidir
+R0
+!i10b 1
+!s100 79f<XkGed?]Ulg5J=VGcN3
+IDl8VIa9B;94^lS>CoQiTc3
+R1
+R2
+R3
+R4
+R5
+L0 43665
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+valtddio_in
+R0
+!i10b 1
+!s100 _ZH7V_E?QMQJ=n[4KK3B03
+IZIIg?77PYK6^af1JB06mX0
+R1
+R2
+R3
+R4
+R5
+L0 43151
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+valtddio_out
+R0
+!i10b 1
+!s100 P4cEXeYhXI05PF:PM^_7M3
+Idlm;z7ODFIg6BH`[EVVm@0
+R1
+R2
+R3
+R4
+R5
+L0 43414
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+valtdpram
+R0
+!i10b 1
+!s100 B><4@d`NahKUNAI64D0jR3
+I::8`PbZK9QSSRgCFY@?9?3
+R1
+R2
+R3
+R4
+R5
+L0 43804
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vALTERA_DEVICE_FAMILIES
+Z13 !s110 1519313049
+!i10b 1
+!s100 3ZXdWb1<6KB[JkkGdf:PN0
+I;10IzI01Be@PoDjZf0fFX0
+R1
+R2
+R3
+R4
+R5
+L0 1344
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@a@l@t@e@r@a_@d@e@v@i@c@e_@f@a@m@i@l@i@e@s
+vALTERA_MF_HINT_EVALUATION
+R13
+!i10b 1
+!s100 a=Fe>V8[JB19QF`<JB2a80
+I?>ObdJMmIVlZ71lV56NNW1
+R1
+R2
+R3
+R4
+R5
+L0 1222
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@a@l@t@e@r@a_@m@f_@h@i@n@t_@e@v@a@l@u@a@t@i@o@n
+vALTERA_MF_MEMORY_INITIALIZATION
+R13
+!i10b 1
+!s100 1;fUiNdohROUTkB`ZS<H92
+I=6f>U=K5@@U42MOOlm7n`1
+R1
+R2
+R3
+R4
+R5
+L0 71
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@a@l@t@e@r@a_@m@f_@m@e@m@o@r@y_@i@n@i@t@i@a@l@i@z@a@t@i@o@n
+valtera_std_synchronizer
+R0
+!i10b 1
+!s100 2mE5m[Xb:bzEC`=E69J`K0
+IVd0PbbI2ACKjC>g1mWf3<2
+R1
+R2
+R3
+R4
+R5
+L0 49264
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+valtera_std_synchronizer_bundle
+R0
+!i10b 1
+!s100 j>A;0>_F:kHFhmMB3Jmeb2
+Ik:S98jjk2fJdEZD:=_1b:1
+R1
+R2
+R3
+R4
+R5
+L0 49423
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+valtfp_mult
+R12
+!i10b 1
+!s100 n<`;U<OfaQ<6UMb2`_^>90
+Ig5HcInClEk;8Wo30OE`1m1
+R1
+R2
+R3
+R4
+R5
+L0 41338
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+valtlvds_rx
+Z14 !s110 1519313051
+!i10b 1
+!s100 [DoB5=6Q]dCfkh`dkaYd_3
+I]@D6oL6S;gaZFejb=T10O2
+R1
+R2
+R3
+R4
+R5
+L0 23659
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+valtlvds_tx
+R14
+!i10b 1
+!s100 2QYnUjeJFa99=hFgD<hS52
+I]TLzjVoOh6@gGXQo<cWA]1
+R1
+R2
+R3
+R4
+R5
+L0 27229
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+valtmult_accum
+R12
+!i10b 1
+!s100 3A[>m=Z^MH5zbFd52OYjQ3
+ICWc5Lj8Ho?2:?KdQNalgb0
+R1
+R2
+R3
+R4
+R5
+L0 31818
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+valtmult_add
+R12
+!i10b 1
+!s100 ADWZMF5>i5MhPjILoHoj20
+I_M]IE92Lcjkm3SOVJ=eCE2
+R1
+R2
+R3
+R4
+R5
+L0 34007
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+valtparallel_flash_loader
+Z15 !s110 1519313054
+!i10b 1
+!s100 C:hH^^;W]nzQH7@B<DfEZ2
+IHU0hEB@PRj7HgeOmV9O<C2
+R1
+R2
+R3
+R4
+R5
+L0 52241
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+valtpll
+R14
+!i10b 1
+!s100 0h9Za^U>Z:F[aeeYlbmTA3
+I0<EP0WfeZ1hWUb3VoYbPT1
+R1
+R2
+R3
+R4
+R5
+L0 21646
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+valtserial_flash_loader
+R15
+!i10b 1
+!s100 S=B>h3m48HRbGA:?g26dE1
+IlVIjo049W7DbMHaHPSH0V0
+R1
+R2
+R3
+R4
+R5
+L0 52357
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+valtshift_taps
+R0
+!i10b 1
+!s100 BSPJ>8hTBf533EZL=eQM<0
+I_XZD?^gZ2XPZTL0HZ>:Q53
+R1
+R2
+R3
+R4
+R5
+L0 48905
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+valtsource_probe
+R15
+!i10b 1
+!s100 zS]]hkXk8zzNVRGiTCjGK3
+I;5BWTgIbMI6zL4JEKXb4F2
+R1
+R2
+R3
+R4
+R5
+L0 52467
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+valtsqrt
+R0
+!i10b 1
+!s100 hRMaRI:c[ZJV89249_EaR1
+IomR^mTG=zN^f;Gh@X@h5o1
+R1
+R2
+R3
+R4
+R5
+L0 42023
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+valtsquare
+R0
+!i10b 1
+!s100 OMU1@OkCeGDad;kiZ1l@00
+I1oWEcFWfcMMRR1ZERHP9G1
+R1
+R2
+R3
+R4
+R5
+L0 49129
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+valtstratixii_oct
+R15
+!i10b 1
+!s100 9VG7I3R?PZ:L<P2:6cRLF0
+I7^ekTzma640Y@86CamILm0
+R1
+R2
+R3
+R4
+R5
+L0 52225
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+valtsyncram
+R0
+!i10b 1
+!s100 99LCUzl>f5@0P42imOl1B2
+I5Z95nBbc`ZI[>9HGi?^^`1
+R1
+R2
+R3
+R4
+R5
+L0 44329
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+varm_m_cntr
+R13
+!i10b 1
+!s100 cL6hGB>mzflKgo>3m_Om`3
+I9L]A]1A0B86VGmbm24dzO2
+R1
+R2
+R3
+R4
+R5
+L0 6375
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+varm_n_cntr
+R13
+!i10b 1
+!s100 ceHaUWl^^42eR1jTgNa9<2
+IC`MWJgk=ohE1C`M5MF:ij1
+R1
+R2
+R3
+R4
+R5
+L0 6455
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+varm_scale_cntr
+R13
+!i10b 1
+!s100 ;:]NCo>dgi9hHNO:?^]G?1
+I2QT;7[S@NZ9O4Xf[T9S3[1
+R1
+R2
+R3
+R4
+R5
+L0 6537
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vcda_m_cntr
+Z16 !s110 1519313050
+!i10b 1
+!s100 OVBF<M0Hg<DI:J[?[ODOg3
+If[VDeZTc@AEajjz^ZBPW12
+R1
+R2
+R3
+R4
+R5
+L0 14314
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vcda_n_cntr
+R16
+!i10b 1
+!s100 2^5H44?CP5YBKXEo1>B1H1
+IZfmZf8Z=U0XN8R7eOfNXI2
+R1
+R2
+R3
+R4
+R5
+L0 14395
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vcda_scale_cntr
+R16
+!i10b 1
+!s100 ?1OV0B2@WAY^XC<i:[?oJ2
+I_k3Az89;Z7]bOMQgR_9Kn1
+R1
+R2
+R3
+R4
+R5
+L0 14466
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vconv_code
+Z17 !s110 1519313057
+!i10b 1
+!s100 amMImgHzzHYB9PE19ZBn70
+I[<K:<M[RTPT3Fn4gW:LgN1
+R1
+R2
+w1519053963
+8C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/conv_code.v
+FC:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/conv_code.v
+L0 4
+R6
+r1
+!s85 0
+31
+!s108 1519313057.174000
+!s107 C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/conv_code.v|
+!s90 -reportprogress|300|-work|work|-novopt|-stats=none|C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/conv_code.v|
+!i113 1
+R10
+vcycloneiiigl_post_divider
+R16
+!i10b 1
+!s100 L09_Qo`4L4[HV:H7KFA`c1
+IO2<mY_EAViQZIaJXK_dQF0
+R1
+R2
+R3
+R4
+R5
+L0 18184
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vdcfifo
+R12
+!i10b 1
+!s100 7Vo:D@bn=b`Lz8N765VdC2
+IUGcPEBihoI6BBLNOFFm0B2
+R1
+R2
+R3
+R4
+R5
+L0 31440
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vdcfifo_async
+R14
+!i10b 1
+!s100 P718_oONn6;JaimC:8US`3
+I9AXYln;zZ6PBFD?oPfGCG0
+R1
+R2
+R3
+R4
+R5
+L0 29719
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vdcfifo_dffpipe
+R14
+!i10b 1
+!s100 R?NN4]0M;Q^ZaC9jcXd5:3
+IKURZBYb<kekLJZ]fl4Q^`0
+R1
+R2
+R3
+R4
+R5
+L0 29489
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vdcfifo_fefifo
+R14
+!i10b 1
+!s100 C>BCSfz8bF9d[H_`=cTCZ3
+I^FDVfk5gkK?d9o^zG1BD^0
+R1
+R2
+R3
+R4
+R5
+L0 29567
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vdcfifo_low_latency
+R12
+!i10b 1
+!s100 7:BdnKWY;8N_XKKc[103_1
+I1NP[Cfm?_CYn4TCLjXoLJ2
+R1
+R2
+R3
+R4
+R5
+L0 30514
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vdcfifo_mixed_widths
+R12
+!i10b 1
+!s100 W0j@z;4Z44Smz=?gYZ5]o3
+IFcNblH;RK[RCoL4L`hAY41
+R1
+R2
+R3
+R4
+R5
+L0 31132
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vdcfifo_sync
+R12
+!i10b 1
+!s100 28ac=@mN2D`>RO7:DHN^X0
+IdLj`Rm45Zn^L<Y2aoE7M^3
+R1
+R2
+R3
+R4
+R5
+L0 30205
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vdffp
+R13
+!i10b 1
+!s100 lcZ[3CBnLin`]d;6DNHkd0
+IYL2F;>NT0Q@JmZAY5M=nT0
+R1
+R2
+R3
+R4
+R5
+L0 2153
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vdummy_hub
+R0
+!i10b 1
+!s100 fA>D?ne>QhL<Vj0IPn93c1
+I7EQPGfjT<UDgOhI`_XRF51
+R1
+R2
+R3
+R4
+R5
+L0 51737
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vfft_ctrl
+R17
+!i10b 1
+!s100 M4WZKBB[H_;]Wi5cB?kZd1
+IaV_9ABAjF0BKdl7nYo46<0
+R1
+R2
+w1517548262
+8C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/fft_ctrl.v
+FC:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/fft_ctrl.v
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1519313057.618000
+!s107 C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/fft_ctrl.v|
+!s90 -reportprogress|300|-work|work|-novopt|-stats=none|C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/fft_ctrl.v|
+!i113 1
+R10
+vfft_ip
+!s110 1519313067
+!i10b 1
+!s100 [2R2b6MXP6]>[ombgOfnE3
+I[W`ETYVKI;fW@;Y]nHUnT1
+R1
+R2
+w1517125063
+8C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/fft_ip/synthesis/fft_ip.v
+FC:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/fft_ip/synthesis/fft_ip.v
+L0 6
+R6
+r1
+!s85 0
+31
+!s108 1519313067.456000
+!s107 C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/fft_ip/synthesis/fft_ip.v|
+!s90 -reportprogress|300|-work|work|-novopt|-stats=none|C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/fft_ip/synthesis/fft_ip.v|
+!i113 1
+R10
+vfft_ip_fft_ii_0
+!s110 1519313069
+!i10b 1
+!s100 ajML:AI@7TccMNWYF3OZ^3
+IT]DKJOg5h`JaQXN02SCgX3
+R1
+R2
+w1517125044
+8C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/fft_ip/simulation/submodules/fft_ip_fft_ii_0.vo
+FC:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/fft_ip/simulation/submodules/fft_ip_fft_ii_0.vo
+L0 32
+R6
+r1
+!s85 0
+31
+!s108 1519313067.714000
+!s107 C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/fft_ip/simulation/submodules/fft_ip_fft_ii_0.vo|
+!s90 -reportprogress|300|-work|work|-novopt|-stats=none|C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/fft_ip/simulation/submodules/fft_ip_fft_ii_0.vo|
+!i113 1
+R10
+vfifo_ctrl
+Z18 !s110 1519313058
+!i10b 1
+!s100 H<GECjdU[z`9>Fo9R;Kzn2
+I0XA`TzRKESTaMXG@_[eLH1
+R1
+R2
+w1517740688
+8C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/fifo_ctrl.v
+FC:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/fifo_ctrl.v
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1519313058.393000
+!s107 C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/fifo_ctrl.v|
+!s90 -reportprogress|300|-work|work|-novopt|-stats=none|C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/fifo_ctrl.v|
+!i113 1
+R10
+vfifo_rx
+R18
+!i10b 1
+!s100 MZA9XdC_eLjR^eAiT2fJI2
+I8`nYm0[k3zZLa`3T=G6`n3
+R1
+R2
+w1517662002
+8C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/fifo_rx.v
+FC:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/fifo_rx.v
+Z19 L0 40
+R6
+r1
+!s85 0
+31
+!s108 1519313058.871000
+!s107 C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/fifo_rx.v|
+!s90 -reportprogress|300|-work|work|-novopt|-stats=none|C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/fifo_rx.v|
+!i113 1
+R10
+vflexible_lvds_rx
+R14
+!i10b 1
+!s100 iMzZUhF`Y:d>dNQm<fa=40
+IMnEA]Gf1hz_KmKB0T9^CR2
+R1
+R2
+R3
+R4
+R5
+L0 25696
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vflexible_lvds_tx
+R14
+!i10b 1
+!s100 3DAdRo5NbPK7eSm=I_8:@0
+Ig;7XU`YFGGHDOoPzO?VXJ0
+R1
+R2
+R3
+R4
+R5
+L0 28929
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vFre_Division
+!s110 1519313059
+!i10b 1
+!s100 :DXOSd8V1IdKP:8oUHDFk1
+IRa5X49<BNCI_W3LAgNI6>3
+R1
+R2
+w1517661394
+8C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/Fre_Division.v
+FC:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/Fre_Division.v
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1519313059.319000
+!s107 C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/Fre_Division.v|
+!s90 -reportprogress|300|-work|work|-novopt|-stats=none|C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/Fre_Division.v|
+!i113 1
+R10
+n@fre_@division
+vio_buf_opdrn
+R15
+!i10b 1
+!s100 =^<AH`I:TA`[9YUe=h1;_1
+I7YTT>1o?G9EF9QSC@a<6R1
+R1
+R2
+Z20 w1352348822
+Z21 8C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/sim/sgate.v
+Z22 FC:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/sim/sgate.v
+L0 248
+R6
+r1
+!s85 0
+31
+Z23 !s108 1519313054.807000
+Z24 !s107 C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/sim/sgate.v|
+Z25 !s90 -reportprogress|300|-work|work|-novopt|-stats=none|C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/sim/sgate.v|
+!i113 1
+R10
+vio_buf_tri
+R15
+!i10b 1
+!s100 1H>;>BLi]?aVfL[[^U83N2
+I<Pzjn@kT?=gQ3z]zDW5PL1
+R1
+R2
+R20
+R21
+R22
+L0 220
+R6
+r1
+!s85 0
+31
+R23
+R24
+R25
+!i113 1
+R10
+vjtag_tap_controller
+R0
+!i10b 1
+!s100 QIe=UMSo^zOUMI1caB[@60
+IALkj@[@AhR3^8gd=O]F<B3
+R1
+R2
+R3
+R4
+R5
+L0 51280
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vlcell
+R13
+!i10b 1
+!s100 bennFdYA;E0lM[zHEL7e`1
+IgZ26Vl8;F=?H53CAT`7hY0
+R1
+R2
+R3
+R4
+R5
+L0 34
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vlpm_abs
+Z26 !s110 1519313047
+!i10b 1
+!s100 fnjg9C07Xe=7OgBL=^>9?3
+IXDWkfN<[5bn<TQfA2j@>R2
+R1
+R2
+Z27 w1352348843
+Z28 8C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/sim/220model.v
+Z29 FC:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/sim/220model.v
+L0 3447
+R6
+r1
+!s85 0
+31
+Z30 !s108 1519313047.410000
+Z31 !s107 C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/sim/220model.v|
+Z32 !s90 -reportprogress|300|-work|work|-novopt|-stats=none|C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/sim/220model.v|
+!i113 1
+R10
+vlpm_add_sub
+R26
+!i10b 1
+!s100 am4mMf7LBYHTnz?5B19[A1
+Izo;D98I<_L]1W97TGI^EE1
+R1
+R2
+R27
+R28
+R29
+L0 2588
+R6
+r1
+!s85 0
+31
+R30
+R31
+R32
+!i113 1
+R10
+vlpm_and
+R26
+!i10b 1
+!s100 >3d0eFY<ZBTmE`ZOP>hRJ0
+IYW7S[8=i24=le76d5CU@10
+R1
+R2
+R27
+R28
+R29
+L0 1664
+R6
+r1
+!s85 0
+31
+R30
+R31
+R32
+!i113 1
+R10
+vlpm_bipad
+Z33 !s110 1519313048
+!i10b 1
+!s100 JOlSe1kdKzmmjFC:QY?C^1
+I9[O=dZ]Pil3[AUoOA?YW80
+R1
+R2
+R27
+R28
+R29
+L0 6658
+R6
+r1
+!s85 0
+31
+R30
+R31
+R32
+!i113 1
+R10
+vlpm_bustri
+R26
+!i10b 1
+!s100 WZmhD>0Mf8CK_ET[@RK8K1
+I7=Yo`Ym7_VfO[hOzkM2153
+R1
+R2
+R27
+R28
+R29
+L0 1954
+R6
+r1
+!s85 0
+31
+R30
+R31
+R32
+!i113 1
+R10
+vlpm_clshift
+R26
+!i10b 1
+!s100 SA[KJiW_UKG:?LJZO0Fco0
+I>50@l;4MIABNSORTmITI33
+R1
+R2
+R27
+R28
+R29
+L0 2303
+R6
+r1
+!s85 0
+31
+R30
+R31
+R32
+!i113 1
+R10
+vlpm_compare
+R26
+!i10b 1
+!s100 [JoJ_>`ZR<agO?DDU2hbd1
+IGDf<g5;R^JW]RM0hZNPz>0
+R1
+R2
+R27
+R28
+R29
+L0 2794
+R6
+r1
+!s85 0
+31
+R30
+R31
+R32
+!i113 1
+R10
+vlpm_constant
+R26
+!i10b 1
+!s100 A2SFQUYD=b`VV[i0n7]4c0
+Ik5lN0M_]SAi3eEJ]MH`Od3
+R1
+R2
+R27
+R28
+R29
+L0 1560
+R6
+r1
+!s85 0
+31
+R30
+R31
+R32
+!i113 1
+R10
+vlpm_counter
+R26
+!i10b 1
+!s100 N_eD5_D0QPoG@:lG?5fkW1
+IAh@O=LfUQ4B_n1TLM>1]^3
+R1
+R2
+R27
+R28
+R29
+L0 3511
+R6
+r1
+!s85 0
+31
+R30
+R31
+R32
+!i113 1
+R10
+vlpm_decode
+R26
+!i10b 1
+!s100 K`<]nejnG1?]f1bWm66PR2
+Ik;RYFhdjFWe7DVMo4IIkL3
+R1
+R2
+R27
+R28
+R29
+L0 2175
+R6
+r1
+!s85 0
+31
+R30
+R31
+R32
+!i113 1
+R10
+vLPM_DEVICE_FAMILIES
+R26
+!i10b 1
+!s100 LY=P`0HX[JcoHiaHl2_AK2
+ID=XSKkK^O6Q<mH1Q_F0D50
+R1
+R2
+R27
+R28
+R29
+L0 1367
+R6
+r1
+!s85 0
+31
+R30
+R31
+R32
+!i113 1
+R10
+n@l@p@m_@d@e@v@i@c@e_@f@a@m@i@l@i@e@s
+vlpm_divide
+R26
+!i10b 1
+!s100 44Admh8`fGOfk>>UT1U8W3
+I[e_hzX8BK[7e5m;ldb1?02
+R1
+R2
+R27
+R28
+R29
+L0 3240
+R6
+r1
+!s85 0
+31
+R30
+R31
+R32
+!i113 1
+R10
+vlpm_ff
+R33
+!i10b 1
+!s100 ^Nd=]6gUc]=7fTcE?aN:B1
+IUSm7Z3NYg>2@lING8AcKR0
+R1
+R2
+R27
+R28
+R29
+L0 3919
+R6
+r1
+!s85 0
+31
+R30
+R31
+R32
+!i113 1
+R10
+vlpm_fifo
+R33
+!i10b 1
+!s100 1[DIj=eAlXe6W^9zTm_UH2
+IC==o1F>1Sg[dokfR;jl@32
+R1
+R2
+R27
+R28
+R29
+L0 5366
+R6
+r1
+!s85 0
+31
+R30
+R31
+R32
+!i113 1
+R10
+vlpm_fifo_dc
+R33
+!i10b 1
+!s100 7Wm;DXCQ]hi6jD_3DCZ5>2
+IeTeJJNeBUzn=I47Z5FlJe0
+R1
+R2
+R27
+R28
+R29
+L0 6423
+R6
+r1
+!s85 0
+31
+R30
+R31
+R32
+!i113 1
+R10
+vlpm_fifo_dc_async
+R33
+!i10b 1
+!s100 H;`b?52S=S<J?oZj@97JP0
+I=1[=Y^NVcZkWk9aI5N5bo0
+R1
+R2
+R27
+R28
+R29
+L0 5986
+R6
+r1
+!s85 0
+31
+R30
+R31
+R32
+!i113 1
+R10
+vlpm_fifo_dc_dffpipe
+R33
+!i10b 1
+!s100 n>:iSm3[KdPWd6_BXO2?Z1
+IQkV`hKZMMb7ngEGW`iKEG3
+R1
+R2
+R27
+R28
+R29
+L0 5697
+R6
+r1
+!s85 0
+31
+R30
+R31
+R32
+!i113 1
+R10
+vlpm_fifo_dc_fefifo
+R33
+!i10b 1
+!s100 iMaW3OmB3?_V?MZ[_cUXW1
+I>JDPQYA2X[Y0MA70RXGn03
+R1
+R2
+R27
+R28
+R29
+L0 5784
+R6
+r1
+!s85 0
+31
+R30
+R31
+R32
+!i113 1
+R10
+vLPM_HINT_EVALUATION
+R26
+!i10b 1
+!s100 `WKMS]SM@JbIe0gCi<3f82
+IVCiKQhZV:1AVz=R;`UTB51
+R1
+R2
+R27
+R28
+R29
+L0 1257
+R6
+r1
+!s85 0
+31
+R30
+R31
+R32
+!i113 1
+R10
+n@l@p@m_@h@i@n@t_@e@v@a@l@u@a@t@i@o@n
+vlpm_inpad
+R33
+!i10b 1
+!s100 [<cTOcmhQ[AilW<V__G[;2
+I?IEg^WP0YEMiCFHZNW4OP0
+R1
+R2
+R27
+R28
+R29
+L0 6546
+R6
+r1
+!s85 0
+31
+R30
+R31
+R32
+!i113 1
+R10
+vlpm_inv
+R26
+!i10b 1
+!s100 RQ8GnU;`UZ`U_Jz[03HO>3
+I39hF2YUT9NIQNOaMLKI9i3
+R1
+R2
+R27
+R28
+R29
+L0 1611
+R6
+r1
+!s85 0
+31
+R30
+R31
+R32
+!i113 1
+R10
+vlpm_latch
+R26
+!i10b 1
+!s100 CS]FQLYWffA5<9PL555=m0
+IaF6<2]Yo4?PP0l:YghbjT1
+R1
+R2
+R27
+R28
+R29
+L0 3795
+R6
+r1
+!s85 0
+31
+R30
+R31
+R32
+!i113 1
+R10
+vLPM_MEMORY_INITIALIZATION
+R26
+!i10b 1
+!s100 DR_SV_J4fzH0gTOLESO6;1
+IYS>F;:PgNT]B]mOg8>Pgk0
+R1
+R2
+R27
+R28
+R29
+L0 77
+R6
+r1
+!s85 0
+31
+R30
+R31
+R32
+!i113 1
+R10
+n@l@p@m_@m@e@m@o@r@y_@i@n@i@t@i@a@l@i@z@a@t@i@o@n
+vlpm_mult
+R26
+!i10b 1
+!s100 2dHekzQmS<J_6_QGACmzH1
+IW6KB>U@CVJ]9<A`VQ^3RG0
+R1
+R2
+R27
+R28
+R29
+L0 2968
+R6
+r1
+!s85 0
+31
+R30
+R31
+R32
+!i113 1
+R10
+vlpm_mux
+R26
+!i10b 1
+!s100 Yoe<<lniQRHC[BoZT<C253
+IO6:K21=G1NG`YW6HVoA<b3
+R1
+R2
+R27
+R28
+R29
+L0 2040
+R6
+r1
+!s85 0
+31
+R30
+R31
+R32
+!i113 1
+R10
+vlpm_or
+R26
+!i10b 1
+!s100 DOC3c31FE71WM`<@1@Egc0
+IE86>2AT7Aj7^E^Y]Ba9hf0
+R1
+R2
+R27
+R28
+R29
+L0 1744
+R6
+r1
+!s85 0
+31
+R30
+R31
+R32
+!i113 1
+R10
+vlpm_outpad
+R33
+!i10b 1
+!s100 5XJ2=:k5@[bdzMJ1L>Fn03
+I:_fUNBK>Efl4SPYX[WGfR2
+R1
+R2
+R27
+R28
+R29
+L0 6602
+R6
+r1
+!s85 0
+31
+R30
+R31
+R32
+!i113 1
+R10
+vlpm_ram_dp
+R33
+!i10b 1
+!s100 ;JeZj;@6zBbk?ng0kRCD01
+IU3g:H^Om8MU<0fJ2^l?b33
+R1
+R2
+R27
+R28
+R29
+L0 4598
+R6
+r1
+!s85 0
+31
+R30
+R31
+R32
+!i113 1
+R10
+vlpm_ram_dq
+R33
+!i10b 1
+!s100 z_N6cjU^e=bK385X7hVzP3
+I53J=4kSWjM3z2hW8AVn4I2
+R1
+R2
+R27
+R28
+R29
+L0 4342
+R6
+r1
+!s85 0
+31
+R30
+R31
+R32
+!i113 1
+R10
+vlpm_ram_io
+R33
+!i10b 1
+!s100 9RkRoDbMVZiGj4;=f;f4X2
+Ib9i`4PAHZ9KhhlL@Y;8703
+R1
+R2
+R27
+R28
+R29
+L0 4889
+R6
+r1
+!s85 0
+31
+R30
+R31
+R32
+!i113 1
+R10
+vlpm_rom
+R33
+!i10b 1
+!s100 N5_0DS[9Ze[VTSkF9YB<e1
+IAmRIbYCV[EhRUQbZUbA1Q3
+R1
+R2
+R27
+R28
+R29
+L0 5151
+R6
+r1
+!s85 0
+31
+R30
+R31
+R32
+!i113 1
+R10
+vlpm_shiftreg
+R33
+!i10b 1
+!s100 >JmYHEWgfWP5DLVgDhj623
+Ig4]RH@02]obYFQam:G>b92
+R1
+R2
+R27
+R28
+R29
+L0 4138
+R6
+r1
+!s85 0
+31
+R30
+R31
+R32
+!i113 1
+R10
+vlpm_xor
+R26
+!i10b 1
+!s100 Z6Xid8DN?NM??H1UWGMX_3
+IhD`]@J2e;2=AKE4McWbl03
+R1
+R2
+R27
+R28
+R29
+L0 1825
+R6
+r1
+!s85 0
+31
+R30
+R31
+R32
+!i113 1
+R10
+vm_sequence
+R15
+!i10b 1
+!s100 koLZbOSmADTmYV1n;Uono3
+I0gRK[U_:CHIm18o^P1o3X2
+R1
+R2
+w1517549831
+8C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/sim/m_sequence.v
+FC:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/sim/m_sequence.v
+L0 3
+R6
+r1
+!s85 0
+31
+!s108 1519313054.392000
+!s107 C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/sim/m_sequence.v|
+!s90 -reportprogress|300|-work|work|-novopt|-stats=none|C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/sim/m_sequence.v|
+!i113 1
+R10
+vMF_cycloneiii_pll
+R16
+!i10b 1
+!s100 K<ocdEDYcm0iPX`VbaEOH3
+Iki6__AXQgW9in?<lZHUWz0
+R1
+R2
+R3
+R4
+R5
+L0 14593
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@m@f_cycloneiii_pll
+vMF_cycloneiiigl_m_cntr
+R16
+!i10b 1
+!s100 `5OHKj<n1kXmT]KMkfQQg2
+I4Y@`M=le<LlTn<P5Ji6l53
+R1
+R2
+R3
+R4
+R5
+L0 17922
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@m@f_cycloneiiigl_m_cntr
+vMF_cycloneiiigl_n_cntr
+R16
+!i10b 1
+!s100 T<IN4oG^F:K_NX2BK12[k2
+II_lLSli9h`W_e[ok9AD]n0
+R1
+R2
+R3
+R4
+R5
+L0 18003
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@m@f_cycloneiiigl_n_cntr
+vMF_cycloneiiigl_pll
+R16
+!i10b 1
+!s100 ;5Ci0i08kZaE`YHNT=HbV2
+I<G>G8ED;`H_N:XWW24>E:0
+R1
+R2
+R3
+R4
+R5
+L0 18273
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@m@f_cycloneiiigl_pll
+vMF_cycloneiiigl_scale_cntr
+R16
+!i10b 1
+!s100 EDoLFVaAhgad]O9F?T4P10
+Ic2]=>d>ohTK6HNJ1GIQ?72
+R1
+R2
+R3
+R4
+R5
+L0 18074
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@m@f_cycloneiiigl_scale_cntr
+vMF_pll_reg
+R13
+!i10b 1
+!s100 H5:DR<HGQU8EzzfWoP1MW2
+IeEDOUKmdz]SWcNG10?kB20
+R1
+R2
+R3
+R4
+R5
+L0 2510
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@m@f_pll_reg
+vMF_stratix_pll
+R13
+!i10b 1
+!s100 F:V0P@R1Ak][ac8f:D0@H0
+I3h`gggkPIEEB:N]=VhLbi0
+R1
+R2
+R3
+R4
+R5
+L0 2569
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@m@f_stratix_pll
+vMF_stratixii_pll
+R16
+!i10b 1
+!s100 2IBViTk64@2z`fH<KYngD1
+IXMQnUQ[7TFh8^LB2:W=ZD0
+R1
+R2
+R3
+R4
+R5
+L0 6660
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@m@f_stratixii_pll
+vMF_stratixiii_pll
+R16
+!i10b 1
+!s100 5_>DcR@VEdWToJiW]>b@H3
+I?QnzaDJF>WR6WY5T;e7om3
+R1
+R2
+R3
+R4
+R5
+L0 10491
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@m@f_stratixiii_pll
+vmux21
+R15
+!i10b 1
+!s100 Q=nPK?Y`8Z_5n_P1iP>f42
+I4UEki?mXg_VhFmelC3F?D0
+R1
+R2
+R20
+R21
+R22
+L0 190
+R6
+r1
+!s85 0
+31
+R23
+R24
+R25
+!i113 1
+R10
+vnew_reset
+!s110 1519317621
+!i10b 1
+!s100 AYPVoEH:X?nCEE[0le59K2
+IzgQkSOl3kUM<OkzRIGHQo1
+R1
+R2
+w1519317585
+8C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/new_reset.v
+FC:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/new_reset.v
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1519317621.251000
+!s107 C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/new_reset.v|
+!s90 -reportprogress|300|-work|work|-novopt|-stats=none|C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/new_reset.v|
+!i113 1
+R10
+voper_add
+R15
+!i10b 1
+!s100 dPDYmXWgGKeHhoeFePfPR2
+IE55IHecEBc=Ie:l;EEXzG2
+R1
+R2
+R20
+R21
+R22
+L0 18
+R6
+r1
+!s85 0
+31
+R23
+R24
+R25
+!i113 1
+R10
+voper_addsub
+R15
+!i10b 1
+!s100 :Di:Lba[kXJBm`IoE?Bon1
+IoD9^gjRK^1H2gh4KlL7h00
+R1
+R2
+R20
+R21
+R22
+L0 95
+R6
+r1
+!s85 0
+31
+R23
+R24
+R25
+!i113 1
+R10
+voper_bus_mux
+Z34 !s110 1519313055
+!i10b 1
+!s100 83iY7?J9JgD`=KN3I^];33
+I7E4E;L5Hn2:?gfY[=nUOH0
+R1
+R2
+R20
+R21
+R22
+L0 1072
+R6
+r1
+!s85 0
+31
+R23
+R24
+R25
+!i113 1
+R10
+voper_decoder
+R34
+!i10b 1
+!s100 BhU]JWh4CAH3f[ALIgD?91
+I_:<RE6m<hI;k>M<4[lRDD3
+R1
+R2
+R20
+R21
+R22
+L0 1036
+R6
+r1
+!s85 0
+31
+R23
+R24
+R25
+!i113 1
+R10
+voper_div
+R34
+!i10b 1
+!s100 Q4=5XaPJlA;U9o>EnYQ3Z2
+ISOaCA@iXY1iIfSI3J>H?k1
+R1
+R2
+R20
+R21
+R22
+L0 394
+R6
+r1
+!s85 0
+31
+R23
+R24
+R25
+!i113 1
+R10
+voper_latch
+R34
+!i10b 1
+!s100 6TkzBj8lWoX[Wk_Oek;zG0
+I>XK=^fClfaQPXj^C`U7Oa0
+R1
+R2
+R20
+R21
+R22
+L0 1135
+R6
+r1
+!s85 0
+31
+R23
+R24
+R25
+!i113 1
+R10
+voper_left_shift
+R34
+!i10b 1
+!s100 GzbHDnkb>SB<:N13UI28Z2
+I2LUT2J?OmU?dTkS5zikg12
+R1
+R2
+R20
+R21
+R22
+L0 572
+R6
+r1
+!s85 0
+31
+R23
+R24
+R25
+!i113 1
+R10
+voper_less_than
+R34
+!i10b 1
+!s100 mkW0GJN@;6C<2gM?VlHk40
+Ibl>KKAiH[=<UBk?g]TP@`0
+R1
+R2
+R20
+R21
+R22
+L0 853
+R6
+r1
+!s85 0
+31
+R23
+R24
+R25
+!i113 1
+R10
+voper_mod
+R34
+!i10b 1
+!s100 KY?eBB<PZPYJ_og7>a4lz1
+IV=GY3li3TFg9=[SbM0<Ee1
+R1
+R2
+R20
+R21
+R22
+L0 483
+R6
+r1
+!s85 0
+31
+R23
+R24
+R25
+!i113 1
+R10
+voper_mult
+R15
+!i10b 1
+!s100 hf0gV[nAT0;;hYNBSzZJ:3
+II@KgS1H3Ql6ZYT7NQE26J1
+R1
+R2
+R20
+R21
+R22
+L0 274
+R6
+r1
+!s85 0
+31
+R23
+R24
+R25
+!i113 1
+R10
+voper_mux
+R34
+!i10b 1
+!s100 1BV^<NLG6]@XcIB4ATlBY2
+I49[H2_^Z3E4=mQ`1AEcz23
+R1
+R2
+R20
+R21
+R22
+L0 945
+R6
+r1
+!s85 0
+31
+R23
+R24
+R25
+!i113 1
+R10
+voper_right_shift
+R34
+!i10b 1
+!s100 0GY5J>n8g<mQmG_1Ph1<l2
+I]VBP=E9e9U6296C6bP:Zf0
+R1
+R2
+R20
+R21
+R22
+L0 649
+R6
+r1
+!s85 0
+31
+R23
+R24
+R25
+!i113 1
+R10
+voper_rotate_left
+R34
+!i10b 1
+!s100 <LHW[F_:n>zBeU4k;`Kfc0
+IFW4Hb9M`?e9@8z5kAKRA?3
+R1
+R2
+R20
+R21
+R22
+L0 732
+R6
+r1
+!s85 0
+31
+R23
+R24
+R25
+!i113 1
+R10
+voper_rotate_right
+R34
+!i10b 1
+!s100 0odf;mlW;hE0G1:GS066I2
+I^8o5RF=2<F[jRb^<`:lo<0
+R1
+R2
+R20
+R21
+R22
+L0 793
+R6
+r1
+!s85 0
+31
+R23
+R24
+R25
+!i113 1
+R10
+voper_selector
+R34
+!i10b 1
+!s100 W1R9=N?MT:3kj1R0<;l[F0
+IZSUNmfTh3kHZg5VmVPWP`2
+R1
+R2
+R20
+R21
+R22
+L0 991
+R6
+r1
+!s85 0
+31
+R23
+R24
+R25
+!i113 1
+R10
+vparallel_add
+R0
+!i10b 1
+!s100 AL?DG;d2S`ek[dK=aUdK[0
+I]QhlgOR2EJ8J7Fd6L4;L60
+R1
+R2
+R3
+R4
+R5
+L0 47930
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vpll_40MHz
+Z35 !s110 1519313060
+!i10b 1
+!s100 K_0z6lYL:Pi2Y`EBh2Tc_1
+I_7j:]V?3Co7G?=z6CI[LR2
+R1
+R2
+w1519307050
+8C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/pll_40MHz.v
+FC:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/pll_40MHz.v
+R19
+R6
+r1
+!s85 0
+31
+!s108 1519313060.464000
+!s107 C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/pll_40MHz.v|
+!s90 -reportprogress|300|-work|work|-novopt|-stats=none|C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/pll_40MHz.v|
+!i113 1
+R10
+npll_40@m@hz
+vpll_iobuf
+R13
+!i10b 1
+!s100 dMa9PC2XJeXf09hT0md_83
+I9E4ezS_[k<1WF1k4SiX[L2
+R1
+R2
+R3
+R4
+R5
+L0 2186
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vqam16
+R35
+!i10b 1
+!s100 ?PF`JDCg@8ERa=h_fo5Um3
+IVhkekXGQBVNbY7IEdbUl20
+R1
+R2
+w1519054713
+8C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/qam16.v
+FC:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/qam16.v
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1519313060.823000
+!s107 C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/qam16.v|
+!s90 -reportprogress|300|-work|work|-novopt|-stats=none|C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/qam16.v|
+!i113 1
+R10
+vRAM_addcp
+Z36 !s110 1519313061
+!i10b 1
+!s100 kA_e=a_JVIk_A5K2^[4QD3
+IgH]TSXTe6>HzVCF[PhVfD3
+R1
+R2
+w1519042680
+8C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/RAM_addcp.v
+FC:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/RAM_addcp.v
+R19
+R6
+r1
+!s85 0
+31
+!s108 1519313061.218000
+!s107 C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/RAM_addcp.v|
+!s90 -reportprogress|300|-work|work|-novopt|-stats=none|C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/RAM_addcp.v|
+!i113 1
+R10
+n@r@a@m_addcp
+vRAM_ctrl
+R36
+!i10b 1
+!s100 >FWi<lQ=GVRXc_JmE>g>z0
+IRZGP5KX?`belb2VmS@]Q@3
+R1
+R2
+w1517450664
+8C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/RAM_ctrl.v
+FC:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/RAM_ctrl.v
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1519313061.711000
+!s107 C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/RAM_ctrl.v|
+!s90 -reportprogress|300|-work|work|-novopt|-stats=none|C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/RAM_ctrl.v|
+!i113 1
+R10
+n@r@a@m_ctrl
+vRAM_imag
+!s110 1519313062
+!i10b 1
+!s100 l_Le;a0LE7Wk64Mh5N<zC3
+I4=jFE0[SBAZEPg=ZAI]H;1
+R1
+R2
+w1517364088
+8C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/RAM_imag.v
+FC:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/RAM_imag.v
+R19
+R6
+r1
+!s85 0
+31
+!s108 1519313062.236000
+!s107 C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/RAM_imag.v|
+!s90 -reportprogress|300|-work|work|-novopt|-stats=none|C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/RAM_imag.v|
+!i113 1
+R10
+n@r@a@m_imag
+vRAM_real
+Z37 !s110 1519313063
+!i10b 1
+!s100 EJQEjBN1m6NK7h3hmRi3R1
+Ied?D7g4H4Y1[P?eodTV561
+R1
+R2
+w1517362983
+8C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/RAM_real.v
+FC:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/RAM_real.v
+R19
+R6
+r1
+!s85 0
+31
+!s108 1519313063.059000
+!s107 C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/RAM_real.v|
+!s90 -reportprogress|300|-work|work|-novopt|-stats=none|C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/RAM_real.v|
+!i113 1
+R10
+n@r@a@m_real
+vROM_syn
+R37
+!i10b 1
+!s100 bAKRziE5N0W_l@8=An2z^2
+I[;PofKjET35]SgRCF96G13
+R1
+R2
+w1517486861
+8C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/ROM_syn.v
+FC:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/ROM_syn.v
+R19
+R6
+r1
+!s85 0
+31
+!s108 1519313063.600000
+!s107 C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/ROM_syn.v|
+!s90 -reportprogress|300|-work|work|-novopt|-stats=none|C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/ROM_syn.v|
+!i113 1
+R10
+n@r@o@m_syn
+vscfifo
+R0
+!i10b 1
+!s100 ihGbT7j95UW5zh2M4[XLl2
+I5^>d4K=;njP]:jG3[jVXh2
+R1
+R2
+R3
+R4
+R5
+L0 48099
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vsignal_gen
+R0
+!i10b 1
+!s100 3=W;5mh6M0l2fESWkNMK`2
+ICBC[WkK9DWRP6S?RnBSJP0
+R1
+R2
+R3
+R4
+R5
+L0 50713
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vsld_signaltap
+R0
+!i10b 1
+!s100 1^h6SX9cRb=<02Nh2C_Wl0
+IS<E1ko`E48DF5l=^OSB:_1
+R1
+R2
+R3
+R4
+R5
+L0 52121
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vsld_virtual_jtag
+R0
+!i10b 1
+!s100 nnHN7MkzD;mW1T]lh^U4A2
+I7=K]<fB_OGHlbOOBN6Sc`1
+R1
+R2
+R3
+R4
+R5
+L0 51994
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vsld_virtual_jtag_basic
+R15
+!i10b 1
+!s100 _Q>noTHS_Mj;dD0bP0`Nz0
+I9[OOnFQ[m4mn55]H4_WMd0
+R1
+R2
+R3
+R4
+R5
+L0 52389
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vstratix_lvds_rx
+R14
+!i10b 1
+!s100 cQ_SRUOnZ9LdlmgzQaTVI2
+IPZRV[J_J]czU5?n>0L=Kl3
+R1
+R2
+R3
+R4
+R5
+L0 24859
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vstratix_tx_outclk
+R14
+!i10b 1
+!s100 Q=c@<Pe@F1`F7XcKfjaCH2
+I4ROmf2:`AZMfY@Q4F0Lhz2
+R1
+R2
+R3
+R4
+R5
+L0 28720
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vstratixgx_dpa_lvds_rx
+R14
+!i10b 1
+!s100 <Ujn[B5XM[fZ9V@fklKDh0
+I^Wf^HVhWSTk>:TONi^;MG0
+R1
+R2
+R3
+R4
+R5
+L0 24967
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vstratixii_lvds_rx
+R14
+!i10b 1
+!s100 <nL[79CGUY44Id@UUL?K_2
+IWSfTHMc7AiBeL?N46MbVX2
+R1
+R2
+R3
+R4
+R5
+L0 25370
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vstratixii_tx_outclk
+R14
+!i10b 1
+!s100 O1Q;=O9<1IEQK3gjA;5;@3
+INN3][hENFJ4bM[CiGl6QL2
+R1
+R2
+R3
+R4
+R5
+L0 28828
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vstratixiii_lvds_rx
+R14
+!i10b 1
+!s100 [ITBNT]W1K9AlLDZDAIRT0
+IbLQHdW1Rl@glhQ7VTMmM]3
+R1
+R2
+R3
+R4
+R5
+L0 26169
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vstratixiii_lvds_rx_channel
+R14
+!i10b 1
+!s100 `U1XW:B^_UJB7E8Vebia10
+IhfGVoMDe]oAcMWSZ3K5_42
+R1
+R2
+R3
+R4
+R5
+L0 26351
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vstratixiii_lvds_rx_dpa
+R14
+!i10b 1
+!s100 0_AE`<<=5e2k6G]Z@RcHR2
+I2K<CBl^g@AA_ODUnE5:l13
+R1
+R2
+R3
+R4
+R5
+L0 26960
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vstratixv_local_clk_divider
+R14
+!i10b 1
+!s100 =JfE`SD<QXVj>cPD9j7n?1
+I]G8Tc@bF^zSCFlM:H5Bba3
+R1
+R2
+R3
+R4
+R5
+L0 28626
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vstx_m_cntr
+R13
+!i10b 1
+!s100 >G1Un;f>kk[FEcV[njPc]3
+Id02R>Hn38zc;i7b]jbGRV1
+R1
+R2
+R3
+R4
+R5
+L0 2212
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vstx_n_cntr
+R13
+!i10b 1
+!s100 M6dOTeVD_n<K3c@SDAe581
+IXN7Sz6>HAn^MJ;]<2X9^e3
+R1
+R2
+R3
+R4
+R5
+L0 2290
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vstx_scale_cntr
+R13
+!i10b 1
+!s100 :m9_ELS=L?L<I7=5GQ_PS2
+Idl;1Lm:>O1e5Je5k1I9M23
+R1
+R2
+R3
+R4
+R5
+L0 2375
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vtest_conv
+Z38 !s110 1519313064
+!i10b 1
+!s100 E;k9VGZBfOOfekdo9PD`B2
+Ie?50Lb6R1kSiKk4Yc7QmD1
+R1
+R2
+w1513516460
+8C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/test_conv.v
+FC:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/test_conv.v
+L0 2
+R6
+r1
+!s85 0
+31
+!s108 1519313063.993000
+!s107 C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/test_conv.v|
+!s90 -reportprogress|300|-work|work|-novopt|-stats=none|C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/test_conv.v|
+!i113 1
+R10
+vtest_transmit
+!s110 1519317818
+!i10b 1
+!s100 Wona6C=N1=Nh0CHdnARmb2
+IOVA@0U:^2mVDa<b<YmA^c2
+R1
+R2
+w1519317807
+8C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/sim/test_transmit.v
+FC:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/sim/test_transmit.v
+L0 2
+R6
+r1
+!s85 0
+31
+!s108 1519317818.126000
+!s107 C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/sim/test_transmit.v|
+!s90 -reportprogress|300|-work|work|-novopt|-stats=none|C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/sim/test_transmit.v|
+!i113 1
+R10
+vtri_bus
+R34
+!i10b 1
+!s100 iZXLc]>>jEPo^MZifMO:93
+I5eihADHK1fm;><lSWiMMI1
+R1
+R2
+R20
+R21
+R22
+L0 347
+R6
+r1
+!s85 0
+31
+R23
+R24
+R25
+!i113 1
+R10
+vttn_m_cntr
+R16
+!i10b 1
+!s100 bgN83]ZYEjB>LW9n^_@FH2
+IoH=?7oPkn7j@6?k`:M`eU3
+R1
+R2
+R3
+R4
+R5
+L0 10212
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vttn_n_cntr
+R16
+!i10b 1
+!s100 KoKAkm5]h3^Cn3SmJgg??1
+Im0B7Ah<eLC_]:j6_:PKB<3
+R1
+R2
+R3
+R4
+R5
+L0 10293
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vttn_scale_cntr
+R16
+!i10b 1
+!s100 e:XV1GUcGI=ba:ej9fgh@0
+IH7O]YV@VPIk;e3oYe:g@F2
+R1
+R2
+R3
+R4
+R5
+L0 10364
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vu_ofdm
+R38
+!i10b 1
+!s100 o?d;fDh@dY8;6M4c<YGc62
+ISSe1C8@H_TCJICDVdUnH53
+R1
+R2
+w1519200156
+8C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/u_ofdm.v
+FC:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/u_ofdm.v
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1519313064.360000
+!s107 C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/u_ofdm.v|
+!s90 -reportprogress|300|-work|work|-novopt|-stats=none|C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/u_ofdm.v|
+!i113 1
+R10
+vuart_rx
+R38
+!i10b 1
+!s100 jeZln`WbC@`GUBYX3@0eN1
+IjoAY@@MF0`57PJZ@LXd:n1
+R1
+R2
+w1517679069
+8C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/uart_rx.v
+FC:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/uart_rx.v
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1519313064.759000
+!s107 C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/uart_rx.v|
+!s90 -reportprogress|300|-work|work|-novopt|-stats=none|C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/uart_rx.v|
+!i113 1
+R10
+vuart_tx
+!s110 1519313065
+!i10b 1
+!s100 IE]T1c_6g=QHzo6H0Y0K>2
+IcGoilA6NK2d=P7E^U4ZJ11
+R1
+R2
+w1517658326
+8C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/uart_tx.v
+FC:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/uart_tx.v
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1519313065.775000
+!s107 C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/uart_tx.v|
+!s90 -reportprogress|300|-work|work|-novopt|-stats=none|C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/uart_tx.v|
+!i113 1
+R10
+vviterbi
+!s110 1519313066
+!i10b 1
+!s100 OC;OfnT0^^>n^PGQ2fzRf3
+I3Sb6^2HiMQ2Sa9:i8TG310
+R1
+R2
+w1517549757
+8C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/viterbi.v
+FC:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/viterbi.v
+L0 3
+R6
+r1
+!s85 0
+31
+!s108 1519313066.452000
+!s107 C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/viterbi.v|
+!s90 -reportprogress|300|-work|work|-novopt|-stats=none|C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/viterbi.v|
+!i113 1
+R10
+vvlc_transmit
+!s110 1519318601
+!i10b 1
+!s100 <D=XP=c2Ag7f@4WLS:4PE2
+IZ_j5Oo8R<K0R;<<gdKdAn1
+R1
+R2
+w1519318591
+8C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/vlc_transmit.v
+FC:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/vlc_transmit.v
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1519318601.410000
+!s107 C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/vlc_transmit.v|
+!s90 -reportprogress|300|-work|work|-novopt|-stats=none|C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/vlc_transmit.v|
+!i113 1
+R10

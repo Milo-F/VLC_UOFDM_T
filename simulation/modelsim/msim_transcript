@@ -1,0 +1,888 @@
+# Reading C:/modeltech64_10.4/tcl/vsim/pref.tcl
+# //  ModelSim SE-64 10.4 Dec  3 2014 
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# do vlc_transmit_run_msim_rtl_verilog.do
+# if ![file isdirectory verilog_libs] {
+# 	file mkdir verilog_libs
+# }
+# 
+# vlib verilog_libs/altera_ver
+# ** Warning: (vlib-34) Library already exists at "verilog_libs/altera_ver".
+# 
+# vmap altera_ver ./verilog_libs/altera_ver
+# Model Technology ModelSim SE-64 vmap 10.4 Lib Mapping Utility 2014.12 Dec  3 2014
+# vmap -modelsim_quiet altera_ver ./verilog_libs/altera_ver 
+# Modifying C:/modeltech64_10.4/win64/../modelsim.ini
+# vlog -vlog01compat -work altera_ver {d:/altera/15.0/quartus/eda/sim_lib/altera_primitives.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 21:20:48 on Feb 03,2018
+# vlog -reportprogress 300 -vlog01compat -work altera_ver d:/altera/15.0/quartus/eda/sim_lib/altera_primitives.v 
+# -- Compiling module global
+# -- Compiling module carry
+# -- Compiling module cascade
+# -- Compiling module carry_sum
+# -- Compiling module exp
+# -- Compiling module soft
+# -- Compiling module opndrn
+# -- Compiling module row_global
+# -- Compiling module TRI
+# -- Compiling module lut_input
+# -- Compiling module lut_output
+# -- Compiling module latch
+# -- Compiling module dlatch
+# -- Compiling module prim_gdff
+# -- Compiling module dff
+# -- Compiling module dffe
+# -- Compiling module dffea
+# -- Compiling module dffeas
+# -- Compiling module prim_gtff
+# -- Compiling module tff
+# -- Compiling module tffe
+# -- Compiling module prim_gjkff
+# -- Compiling module jkff
+# -- Compiling module jkffe
+# -- Compiling module prim_gsrff
+# -- Compiling module srff
+# -- Compiling module srffe
+# -- Compiling module clklock
+# -- Compiling module alt_inbuf
+# -- Compiling module alt_outbuf
+# -- Compiling module alt_outbuf_tri
+# -- Compiling module alt_iobuf
+# -- Compiling module alt_inbuf_diff
+# -- Compiling module alt_outbuf_diff
+# -- Compiling module alt_outbuf_tri_diff
+# -- Compiling module alt_iobuf_diff
+# -- Compiling module alt_bidir_diff
+# -- Compiling module alt_bidir_buf
+# -- Compiling UDP PRIM_GDFF_LOW
+# -- Compiling UDP PRIM_GDFF_HIGH
+# 
+# Top level modules:
+# 	global
+# 	carry
+# 	cascade
+# 	carry_sum
+# 	exp
+# 	soft
+# 	opndrn
+# 	row_global
+# 	TRI
+# 	lut_input
+# 	lut_output
+# 	latch
+# 	dlatch
+# 	dff
+# 	dffe
+# 	dffea
+# 	dffeas
+# 	tff
+# 	tffe
+# 	jkff
+# 	jkffe
+# 	srff
+# 	srffe
+# 	clklock
+# 	alt_inbuf
+# 	alt_outbuf
+# 	alt_outbuf_tri
+# 	alt_iobuf
+# 	alt_inbuf_diff
+# 	alt_outbuf_diff
+# 	alt_outbuf_tri_diff
+# 	alt_iobuf_diff
+# 	alt_bidir_diff
+# 	alt_bidir_buf
+# End time: 21:20:52 on Feb 03,2018, Elapsed time: 0:00:04
+# Errors: 0, Warnings: 0
+# 
+# vlib verilog_libs/lpm_ver
+# ** Warning: (vlib-34) Library already exists at "verilog_libs/lpm_ver".
+# 
+# vmap lpm_ver ./verilog_libs/lpm_ver
+# Model Technology ModelSim SE-64 vmap 10.4 Lib Mapping Utility 2014.12 Dec  3 2014
+# vmap -modelsim_quiet lpm_ver ./verilog_libs/lpm_ver 
+# Modifying C:/modeltech64_10.4/win64/../modelsim.ini
+# vlog -vlog01compat -work lpm_ver {d:/altera/15.0/quartus/eda/sim_lib/220model.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 21:20:54 on Feb 03,2018
+# vlog -reportprogress 300 -vlog01compat -work lpm_ver d:/altera/15.0/quartus/eda/sim_lib/220model.v 
+# -- Compiling module LPM_MEMORY_INITIALIZATION
+# -- Compiling module LPM_HINT_EVALUATION
+# -- Compiling module LPM_DEVICE_FAMILIES
+# -- Compiling module lpm_constant
+# -- Compiling module lpm_inv
+# -- Compiling module lpm_and
+# -- Compiling module lpm_or
+# -- Compiling module lpm_xor
+# -- Compiling module lpm_bustri
+# -- Compiling module lpm_mux
+# -- Compiling module lpm_decode
+# -- Compiling module lpm_clshift
+# -- Compiling module lpm_add_sub
+# -- Compiling module lpm_compare
+# -- Compiling module lpm_mult
+# -- Compiling module lpm_divide
+# -- Compiling module lpm_abs
+# -- Compiling module lpm_counter
+# -- Compiling module lpm_latch
+# -- Compiling module lpm_ff
+# -- Compiling module lpm_shiftreg
+# -- Compiling module lpm_ram_dq
+# -- Compiling module lpm_ram_dp
+# -- Compiling module lpm_ram_io
+# -- Compiling module lpm_rom
+# -- Compiling module lpm_fifo
+# -- Compiling module lpm_fifo_dc_dffpipe
+# -- Compiling module lpm_fifo_dc_fefifo
+# -- Compiling module lpm_fifo_dc_async
+# -- Compiling module lpm_fifo_dc
+# -- Compiling module lpm_inpad
+# -- Compiling module lpm_outpad
+# -- Compiling module lpm_bipad
+# 
+# Top level modules:
+# 	lpm_constant
+# 	lpm_inv
+# 	lpm_and
+# 	lpm_or
+# 	lpm_xor
+# 	lpm_bustri
+# 	lpm_mux
+# 	lpm_decode
+# 	lpm_clshift
+# 	lpm_add_sub
+# 	lpm_compare
+# 	lpm_mult
+# 	lpm_divide
+# 	lpm_abs
+# 	lpm_counter
+# 	lpm_latch
+# 	lpm_ff
+# 	lpm_shiftreg
+# 	lpm_ram_dq
+# 	lpm_ram_dp
+# 	lpm_ram_io
+# 	lpm_rom
+# 	lpm_fifo
+# 	lpm_fifo_dc
+# 	lpm_inpad
+# 	lpm_outpad
+# 	lpm_bipad
+# End time: 21:20:55 on Feb 03,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vlib verilog_libs/sgate_ver
+# ** Warning: (vlib-34) Library already exists at "verilog_libs/sgate_ver".
+# 
+# vmap sgate_ver ./verilog_libs/sgate_ver
+# Model Technology ModelSim SE-64 vmap 10.4 Lib Mapping Utility 2014.12 Dec  3 2014
+# vmap -modelsim_quiet sgate_ver ./verilog_libs/sgate_ver 
+# Modifying C:/modeltech64_10.4/win64/../modelsim.ini
+# vlog -vlog01compat -work sgate_ver {d:/altera/15.0/quartus/eda/sim_lib/sgate.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 21:20:58 on Feb 03,2018
+# vlog -reportprogress 300 -vlog01compat -work sgate_ver d:/altera/15.0/quartus/eda/sim_lib/sgate.v 
+# -- Compiling module oper_add
+# -- Compiling module oper_addsub
+# -- Compiling module mux21
+# -- Compiling module io_buf_tri
+# -- Compiling module io_buf_opdrn
+# -- Compiling module oper_mult
+# -- Compiling module tri_bus
+# -- Compiling module oper_div
+# -- Compiling module oper_mod
+# -- Compiling module oper_left_shift
+# -- Compiling module oper_right_shift
+# -- Compiling module oper_rotate_left
+# -- Compiling module oper_rotate_right
+# -- Compiling module oper_less_than
+# -- Compiling module oper_mux
+# -- Compiling module oper_selector
+# -- Compiling module oper_decoder
+# -- Compiling module oper_bus_mux
+# -- Compiling module oper_latch
+# 
+# Top level modules:
+# 	oper_add
+# 	oper_addsub
+# 	mux21
+# 	io_buf_tri
+# 	io_buf_opdrn
+# 	oper_mult
+# 	tri_bus
+# 	oper_div
+# 	oper_mod
+# 	oper_left_shift
+# 	oper_right_shift
+# 	oper_rotate_left
+# 	oper_rotate_right
+# 	oper_less_than
+# 	oper_mux
+# 	oper_selector
+# 	oper_decoder
+# 	oper_bus_mux
+# 	oper_latch
+# End time: 21:20:59 on Feb 03,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vlib verilog_libs/altera_mf_ver
+# ** Warning: (vlib-34) Library already exists at "verilog_libs/altera_mf_ver".
+# 
+# vmap altera_mf_ver ./verilog_libs/altera_mf_ver
+# Model Technology ModelSim SE-64 vmap 10.4 Lib Mapping Utility 2014.12 Dec  3 2014
+# vmap -modelsim_quiet altera_mf_ver ./verilog_libs/altera_mf_ver 
+# Modifying C:/modeltech64_10.4/win64/../modelsim.ini
+# vlog -vlog01compat -work altera_mf_ver {d:/altera/15.0/quartus/eda/sim_lib/altera_mf.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 21:21:00 on Feb 03,2018
+# vlog -reportprogress 300 -vlog01compat -work altera_mf_ver d:/altera/15.0/quartus/eda/sim_lib/altera_mf.v 
+# -- Compiling module lcell
+# -- Compiling module ALTERA_MF_MEMORY_INITIALIZATION
+# -- Compiling module ALTERA_MF_HINT_EVALUATION
+# -- Compiling module ALTERA_DEVICE_FAMILIES
+# -- Compiling module dffp
+# -- Compiling module pll_iobuf
+# -- Compiling module stx_m_cntr
+# -- Compiling module stx_n_cntr
+# -- Compiling module stx_scale_cntr
+# -- Compiling module MF_pll_reg
+# -- Compiling module MF_stratix_pll
+# -- Compiling module arm_m_cntr
+# -- Compiling module arm_n_cntr
+# -- Compiling module arm_scale_cntr
+# -- Compiling module MF_stratixii_pll
+# -- Compiling module ttn_m_cntr
+# -- Compiling module ttn_n_cntr
+# -- Compiling module ttn_scale_cntr
+# -- Compiling module MF_stratixiii_pll
+# -- Compiling module cda_m_cntr
+# -- Compiling module cda_n_cntr
+# -- Compiling module cda_scale_cntr
+# -- Compiling module MF_cycloneiii_pll
+# -- Compiling module MF_cycloneiiigl_m_cntr
+# -- Compiling module MF_cycloneiiigl_n_cntr
+# -- Compiling module MF_cycloneiiigl_scale_cntr
+# -- Compiling module cycloneiiigl_post_divider
+# -- Compiling module MF_cycloneiiigl_pll
+# -- Compiling module altpll
+# -- Compiling module altlvds_rx
+# -- Compiling module stratix_lvds_rx
+# -- Compiling module stratixgx_dpa_lvds_rx
+# -- Compiling module stratixii_lvds_rx
+# -- Compiling module flexible_lvds_rx
+# -- Compiling module stratixiii_lvds_rx
+# -- Compiling module stratixiii_lvds_rx_channel
+# -- Compiling module stratixiii_lvds_rx_dpa
+# -- Compiling module altlvds_tx
+# -- Compiling module stratixv_local_clk_divider
+# -- Compiling module stratix_tx_outclk
+# -- Compiling module stratixii_tx_outclk
+# -- Compiling module flexible_lvds_tx
+# -- Compiling module dcfifo_dffpipe
+# -- Compiling module dcfifo_fefifo
+# -- Compiling module dcfifo_async
+# -- Compiling module dcfifo_sync
+# -- Compiling module dcfifo_low_latency
+# -- Compiling module dcfifo_mixed_widths
+# -- Compiling module dcfifo
+# -- Compiling module altera_syncram_derived
+# -- Compiling module altaccumulate
+# -- Compiling module altmult_accum
+# -- Compiling module altmult_add
+# -- Compiling module altfp_mult
+# -- Compiling module altsqrt
+# -- Compiling module altclklock
+# -- Compiling module altddio_in
+# -- Compiling module altddio_out
+# -- Compiling module altddio_bidir
+# -- Compiling module altdpram
+# -- Compiling module altsyncram
+# -- Compiling module altsyncram_body
+# -- Compiling module alt3pram
+# -- Compiling module parallel_add
+# -- Compiling module scfifo
+# -- Compiling module altshift_taps
+# -- Compiling module a_graycounter
+# -- Compiling module altsquare
+# -- Compiling module altera_std_synchronizer
+# -- Compiling module altera_std_synchronizer_bundle
+# -- Compiling module alt_cal
+# -- Compiling module alt_cal_mm
+# -- Compiling module alt_cal_c3gxb
+# -- Compiling module alt_cal_sv
+# -- Compiling module alt_cal_av
+# -- Compiling module alt_aeq_s4
+# -- Compiling module alt_eyemon
+# -- Compiling module alt_dfe
+# -- Compiling module signal_gen
+# -- Compiling module jtag_tap_controller
+# -- Compiling module dummy_hub
+# -- Compiling module sld_virtual_jtag
+# -- Compiling module sld_signaltap
+# -- Compiling module altstratixii_oct
+# -- Compiling module altparallel_flash_loader
+# -- Compiling module altserial_flash_loader
+# -- Compiling module sld_virtual_jtag_basic
+# -- Compiling module altsource_probe
+# 
+# Top level modules:
+# 	lcell
+# 	altpll
+# 	altlvds_rx
+# 	altlvds_tx
+# 	dcfifo
+# 	altaccumulate
+# 	altmult_accum
+# 	altmult_add
+# 	altfp_mult
+# 	altsqrt
+# 	altclklock
+# 	altddio_bidir
+# 	altdpram
+# 	alt3pram
+# 	parallel_add
+# 	scfifo
+# 	altshift_taps
+# 	a_graycounter
+# 	altsquare
+# 	altera_std_synchronizer_bundle
+# 	alt_cal
+# 	alt_cal_mm
+# 	alt_cal_c3gxb
+# 	alt_cal_sv
+# 	alt_cal_av
+# 	alt_aeq_s4
+# 	alt_eyemon
+# 	alt_dfe
+# 	sld_virtual_jtag
+# 	sld_signaltap
+# 	altstratixii_oct
+# 	altparallel_flash_loader
+# 	altserial_flash_loader
+# 	sld_virtual_jtag_basic
+# 	altsource_probe
+# End time: 21:21:09 on Feb 03,2018, Elapsed time: 0:00:09
+# Errors: 0, Warnings: 0
+# 
+# vlib verilog_libs/altera_lnsim_ver
+# ** Warning: (vlib-34) Library already exists at "verilog_libs/altera_lnsim_ver".
+# 
+# vmap altera_lnsim_ver ./verilog_libs/altera_lnsim_ver
+# Model Technology ModelSim SE-64 vmap 10.4 Lib Mapping Utility 2014.12 Dec  3 2014
+# vmap -modelsim_quiet altera_lnsim_ver ./verilog_libs/altera_lnsim_ver 
+# Modifying C:/modeltech64_10.4/win64/../modelsim.ini
+# vlog -sv -work altera_lnsim_ver {d:/altera/15.0/quartus/eda/sim_lib/altera_lnsim.sv}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 21:21:12 on Feb 03,2018
+# vlog -reportprogress 300 -sv -work altera_lnsim_ver d:/altera/15.0/quartus/eda/sim_lib/altera_lnsim.sv 
+# -- Compiling package altera_lnsim_functions
+# -- Compiling package altera_generic_pll_functions
+# -- Compiling module generic_pll
+# -- Importing package altera_lnsim_functions
+# -- Importing package altera_generic_pll_functions
+# -- Compiling module generic_cdr
+# -- Compiling module common_28nm_ram_pulse_generator
+# -- Compiling module common_28nm_ram_register
+# -- Compiling module common_28nm_ram_block
+# -- Compiling module generic_m20k
+# -- Compiling module generic_m10k
+# -- Compiling module common_28nm_mlab_cell_pulse_generator
+# -- Compiling module common_28nm_mlab_latch
+# -- Compiling module common_28nm_mlab_cell_core
+# -- Compiling module common_porta_latches
+# -- Compiling module generic_28nm_hp_mlab_cell_impl
+# -- Compiling module common_porta_registers
+# -- Compiling module generic_28nm_lc_mlab_cell_impl
+# -- Compiling module generic_mux
+# -- Compiling module generic_device_pll
+# -- Compiling module common_14nm_ram_pulse_generator
+# -- Compiling module common_14nm_ram_register
+# -- Compiling module fourteennm_m20k
+# -- Compiling module nadder_m20k
+# -- Compiling module altera_mult_add
+# -- Compiling module altera_mult_add_rtl
+# -- Compiling module ama_signed_extension_function
+# -- Compiling module ama_dynamic_signed_function
+# -- Compiling module ama_register_function
+# -- Compiling module ama_register_with_ext_function
+# -- Compiling module ama_data_split_reg_ext_function
+# -- Compiling module ama_coef_reg_ext_function
+# -- Compiling module ama_adder_function
+# -- Compiling module ama_multiplier_function
+# -- Compiling module ama_preadder_function
+# -- Compiling module ama_chainout_adder_accumulator_function
+# -- Compiling module ama_systolic_adder_function
+# -- Compiling module ama_scanchain
+# -- Compiling module ama_latency_function
+# -- Compiling module altera_pll_reconfig_tasks
+# -- Compiling module altera_syncram
+# -- Compiling module ALTERA_LNSIM_MEMORY_INITIALIZATION
+# -- Compiling module altera_stratixv_pll
+# -- Compiling module altera_arriav_pll
+# -- Compiling module altera_arriavgz_pll
+# -- Compiling module altera_cyclonev_pll
+# -- Compiling module altera_pll
+# -- Compiling module dps_extra_kick
+# -- Compiling module dprio_init
+# -- Compiling module dps_pulse_gen
+# -- Compiling module twentynm_iopll_ip
+# -- Compiling module altera_pll_dps_lcell_comb
+# 
+# Top level modules:
+# 	generic_cdr
+# 	generic_m20k
+# 	generic_m10k
+# 	common_porta_latches
+# 	generic_28nm_hp_mlab_cell_impl
+# 	generic_28nm_lc_mlab_cell_impl
+# 	generic_mux
+# 	generic_device_pll
+# 	nadder_m20k
+# 	altera_mult_add
+# 	altera_pll_reconfig_tasks
+# 	altera_syncram
+# 	altera_pll
+# End time: 21:21:17 on Feb 03,2018, Elapsed time: 0:00:05
+# Errors: 0, Warnings: 0
+# 
+# vlib verilog_libs/cycloneive_ver
+# ** Warning: (vlib-34) Library already exists at "verilog_libs/cycloneive_ver".
+# 
+# vmap cycloneive_ver ./verilog_libs/cycloneive_ver
+# Model Technology ModelSim SE-64 vmap 10.4 Lib Mapping Utility 2014.12 Dec  3 2014
+# vmap -modelsim_quiet cycloneive_ver ./verilog_libs/cycloneive_ver 
+# Modifying C:/modeltech64_10.4/win64/../modelsim.ini
+# vlog -vlog01compat -work cycloneive_ver {d:/altera/15.0/quartus/eda/sim_lib/cycloneive_atoms.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 21:21:18 on Feb 03,2018
+# vlog -reportprogress 300 -vlog01compat -work cycloneive_ver d:/altera/15.0/quartus/eda/sim_lib/cycloneive_atoms.v 
+# -- Compiling UDP CYCLONEIVE_PRIM_DFFE
+# -- Compiling UDP CYCLONEIVE_PRIM_DFFEAS
+# -- Compiling UDP CYCLONEIVE_PRIM_DFFEAS_HIGH
+# -- Compiling module cycloneive_dffe
+# -- Compiling module cycloneive_mux21
+# -- Compiling module cycloneive_mux41
+# -- Compiling module cycloneive_and1
+# -- Compiling module cycloneive_and16
+# -- Compiling module cycloneive_bmux21
+# -- Compiling module cycloneive_b17mux21
+# -- Compiling module cycloneive_nmux21
+# -- Compiling module cycloneive_b5mux21
+# -- Compiling module cycloneive_latch
+# -- Compiling module cycloneive_routing_wire
+# -- Compiling module cycloneive_m_cntr
+# -- Compiling module cycloneive_n_cntr
+# -- Compiling module cycloneive_scale_cntr
+# -- Compiling module cycloneive_pll_reg
+# -- Compiling module cycloneive_pll
+# -- Compiling module cycloneive_lcell_comb
+# -- Compiling module cycloneive_ff
+# -- Compiling module cycloneive_ram_pulse_generator
+# -- Compiling module cycloneive_ram_register
+# -- Compiling module cycloneive_ram_block
+# -- Compiling module cycloneive_mac_data_reg
+# -- Compiling module cycloneive_mac_sign_reg
+# -- Compiling module cycloneive_mac_mult_internal
+# -- Compiling module cycloneive_mac_mult
+# -- Compiling module cycloneive_mac_out
+# -- Compiling module cycloneive_io_ibuf
+# -- Compiling module cycloneive_io_obuf
+# -- Compiling module cycloneive_ddio_out
+# -- Compiling module cycloneive_ddio_oe
+# -- Compiling module cycloneive_pseudo_diff_out
+# -- Compiling module cycloneive_io_pad
+# -- Compiling module cycloneive_asmiblock
+# -- Compiling module cycloneive_ena_reg
+# -- Compiling module cycloneive_clkctrl
+# -- Compiling module cycloneive_rublock
+# -- Compiling module cycloneive_apfcontroller
+# -- Compiling module cycloneive_termination_ctrl
+# -- Compiling module cycloneive_termination_rupdn
+# -- Compiling module cycloneive_termination
+# -- Compiling module cycloneive_jtag
+# -- Compiling module cycloneive_crcblock
+# -- Compiling module cycloneive_oscillator
+# 
+# Top level modules:
+# 	cycloneive_dffe
+# 	cycloneive_and1
+# 	cycloneive_and16
+# 	cycloneive_bmux21
+# 	cycloneive_b17mux21
+# 	cycloneive_nmux21
+# 	cycloneive_b5mux21
+# 	cycloneive_pll_reg
+# 	cycloneive_pll
+# 	cycloneive_lcell_comb
+# 	cycloneive_ff
+# 	cycloneive_ram_block
+# 	cycloneive_mac_mult
+# 	cycloneive_mac_out
+# 	cycloneive_io_ibuf
+# 	cycloneive_io_obuf
+# 	cycloneive_ddio_out
+# 	cycloneive_ddio_oe
+# 	cycloneive_pseudo_diff_out
+# 	cycloneive_io_pad
+# 	cycloneive_asmiblock
+# 	cycloneive_clkctrl
+# 	cycloneive_rublock
+# 	cycloneive_apfcontroller
+# 	cycloneive_termination
+# 	cycloneive_jtag
+# 	cycloneive_crcblock
+# 	cycloneive_oscillator
+# End time: 21:21:22 on Feb 03,2018, Elapsed time: 0:00:04
+# Errors: 0, Warnings: 0
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim SE-64 vmap 10.4 Lib Mapping Utility 2014.12 Dec  3 2014
+# vmap -modelsim_quiet work rtl_work 
+# Modifying C:/modeltech64_10.4/win64/../modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit {C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/uart_rx.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 21:21:25 on Feb 03,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit" C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/uart_rx.v 
+# -- Compiling module uart_rx
+# 
+# Top level modules:
+# 	uart_rx
+# End time: 21:21:25 on Feb 03,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit {C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/vlc_transmit.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 21:21:25 on Feb 03,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit" C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/vlc_transmit.v 
+# -- Compiling module vlc_transmit
+# 
+# Top level modules:
+# 	vlc_transmit
+# End time: 21:21:25 on Feb 03,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit {C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/qam16.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 21:21:26 on Feb 03,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit" C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/qam16.v 
+# -- Compiling module qam16
+# 
+# Top level modules:
+# 	qam16
+# End time: 21:21:26 on Feb 03,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit {C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/pll_mul2.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 21:21:27 on Feb 03,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit" C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/pll_mul2.v 
+# -- Compiling module pll_mul2
+# 
+# Top level modules:
+# 	pll_mul2
+# End time: 21:21:27 on Feb 03,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit {C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/pll_addCP.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 21:21:27 on Feb 03,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit" C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/pll_addCP.v 
+# -- Compiling module pll_addCP
+# 
+# Top level modules:
+# 	pll_addCP
+# End time: 21:21:28 on Feb 03,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit {C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/Fre_Division.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 21:21:29 on Feb 03,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit" C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/Fre_Division.v 
+# -- Compiling module Fre_Division
+# 
+# Top level modules:
+# 	Fre_Division
+# End time: 21:21:29 on Feb 03,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit {C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/fft_ctrl.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 21:21:29 on Feb 03,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit" C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/fft_ctrl.v 
+# -- Compiling module fft_ctrl
+# 
+# Top level modules:
+# 	fft_ctrl
+# End time: 21:21:29 on Feb 03,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit {C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/conv_code.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 21:21:30 on Feb 03,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit" C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/conv_code.v 
+# -- Compiling module conv_code
+# 
+# Top level modules:
+# 	conv_code
+# End time: 21:21:30 on Feb 03,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit {C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/add_CP.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 21:21:31 on Feb 03,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit" C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/add_CP.v 
+# -- Compiling module add_CP
+# 
+# Top level modules:
+# 	add_CP
+# End time: 21:21:31 on Feb 03,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit {C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/RAM_real.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 21:21:32 on Feb 03,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit" C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/RAM_real.v 
+# -- Compiling module RAM_real
+# 
+# Top level modules:
+# 	RAM_real
+# End time: 21:21:32 on Feb 03,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit {C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/RAM_imag.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 21:21:33 on Feb 03,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit" C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/RAM_imag.v 
+# -- Compiling module RAM_imag
+# 
+# Top level modules:
+# 	RAM_imag
+# End time: 21:21:33 on Feb 03,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit {C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/RAM_ctrl.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 21:21:34 on Feb 03,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit" C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/RAM_ctrl.v 
+# -- Compiling module RAM_ctrl
+# 
+# Top level modules:
+# 	RAM_ctrl
+# End time: 21:21:34 on Feb 03,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit {C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/ROM_syn.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 21:21:34 on Feb 03,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit" C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/ROM_syn.v 
+# -- Compiling module ROM_syn
+# 
+# Top level modules:
+# 	ROM_syn
+# End time: 21:21:35 on Feb 03,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit {C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/RAM_addcp.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 21:21:35 on Feb 03,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit" C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/RAM_addcp.v 
+# -- Compiling module RAM_addcp
+# 
+# Top level modules:
+# 	RAM_addcp
+# End time: 21:21:36 on Feb 03,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit {C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/addcp_ctrl.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 21:21:36 on Feb 03,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit" C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/addcp_ctrl.v 
+# -- Compiling module addcp_ctrl
+# 
+# Top level modules:
+# 	addcp_ctrl
+# End time: 21:21:36 on Feb 03,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit {C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/fifo_rx.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 21:21:37 on Feb 03,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit" C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/fifo_rx.v 
+# -- Compiling module fifo_rx
+# 
+# Top level modules:
+# 	fifo_rx
+# End time: 21:21:37 on Feb 03,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/db {C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/db/pll_mul2_altpll.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 21:21:37 on Feb 03,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/db" C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/db/pll_mul2_altpll.v 
+# -- Compiling module pll_mul2_altpll
+# 
+# Top level modules:
+# 	pll_mul2_altpll
+# End time: 21:21:38 on Feb 03,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/db {C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/db/pll_addcp_altpll.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 21:21:38 on Feb 03,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/db" C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/db/pll_addcp_altpll.v 
+# -- Compiling module pll_addCP_altpll
+# 
+# Top level modules:
+# 	pll_addCP_altpll
+# End time: 21:21:39 on Feb 03,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlib fft_ip
+# ** Warning: (vlib-34) Library already exists at "fft_ip".
+# 
+# vmap fft_ip fft_ip
+# Model Technology ModelSim SE-64 vmap 10.4 Lib Mapping Utility 2014.12 Dec  3 2014
+# vmap -modelsim_quiet fft_ip fft_ip 
+# Modifying C:/modeltech64_10.4/win64/../modelsim.ini
+# vlog -vlog01compat -work fft_ip +incdir+C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/fft_ip/synthesis {C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/fft_ip/synthesis/fft_ip.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 21:21:40 on Feb 03,2018
+# vlog -reportprogress 300 -vlog01compat -work fft_ip "+incdir+C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/fft_ip/synthesis" C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/fft_ip/synthesis/fft_ip.v 
+# -- Compiling module fft_ip
+# 
+# Top level modules:
+# 	fft_ip
+# End time: 21:21:40 on Feb 03,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work fft_ip +incdir+C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/fft_ip/synthesis/submodules {C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/fft_ip/synthesis/submodules/fft_ip_fft_ii_0.sv}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 21:21:40 on Feb 03,2018
+# vlog -reportprogress 300 -sv -work fft_ip "+incdir+C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/fft_ip/synthesis/submodules" C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/fft_ip/synthesis/submodules/fft_ip_fft_ii_0.sv 
+# -- Compiling module fft_ip_fft_ii_0
+# 
+# Top level modules:
+# 	fft_ip_fft_ii_0
+# End time: 21:21:41 on Feb 03,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work fft_ip {C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/fft_ip/synthesis/submodules/auk_dspip_text_pkg.vhd}
+# Model Technology ModelSim SE-64 vcom 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 21:21:42 on Feb 03,2018
+# vcom -reportprogress 300 -93 -work fft_ip C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/fft_ip/synthesis/submodules/auk_dspip_text_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package auk_dspip_text_pkg
+# -- Compiling package body auk_dspip_text_pkg
+# -- Loading package auk_dspip_text_pkg
+# End time: 21:21:42 on Feb 03,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work fft_ip {C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/fft_ip/synthesis/submodules/auk_dspip_math_pkg.vhd}
+# Model Technology ModelSim SE-64 vcom 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 21:21:43 on Feb 03,2018
+# vcom -reportprogress 300 -93 -work fft_ip C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/fft_ip/synthesis/submodules/auk_dspip_math_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package auk_dspip_math_pkg
+# -- Compiling package body auk_dspip_math_pkg
+# -- Loading package auk_dspip_math_pkg
+# End time: 21:21:43 on Feb 03,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work fft_ip {C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/fft_ip/synthesis/submodules/auk_dspip_lib_pkg.vhd}
+# Model Technology ModelSim SE-64 vcom 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 21:21:43 on Feb 03,2018
+# vcom -reportprogress 300 -93 -work fft_ip C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/fft_ip/synthesis/submodules/auk_dspip_lib_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package auk_dspip_math_pkg
+# -- Compiling package auk_dspip_lib_pkg
+# End time: 21:21:44 on Feb 03,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/sim {C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/sim/test_transmit.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 21:21:44 on Feb 03,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/sim" C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/sim/test_transmit.v 
+# -- Compiling module test_transmit
+# ** Error: (vlog-13069) C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/sim/test_transmit.v(44): near ")": syntax error, unexpected ')', expecting .* or '.'.
+# 
+# End time: 21:21:44 on Feb 03,2018, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/modeltech64_10.4/win64/vlog failed.
+# Error in macro ./vlc_transmit_run_msim_rtl_verilog.do line 62
+# C:/modeltech64_10.4/win64/vlog failed.
+#     while executing
+# "vlog -vlog01compat -work work +incdir+C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/sim {C:/Users/fz.000/Desktop/vlc_system/experiment/vl..."
+vlog -vlog01compat -work work +incdir+C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/vlc_transmit.v
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 21:22:48 on Feb 03,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit" -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/vlc_transmit.v 
+# -- Compiling module vlc_transmit
+# 
+# Top level modules:
+# 	vlc_transmit
+# End time: 21:22:48 on Feb 03,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.vlc_transmit
+# vsim -gui "+altera" -l msim_transcript -do "vlc_transmit_run_msim_rtl_verilog.do" 
+# Start time: 21:23:01 on Feb 03,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Loading work.vlc_transmit
+# Loading work.Fre_Division
+# Loading work.pll_mul2
+# ** Error: (vsim-3033) C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/pll_mul2.v(66): Instantiation of 'altpll' failed. The design unit was not found.
+#    Time: 0 ns  Iteration: 0  Instance: /vlc_transmit/pll_mul2_m File: C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/pll_mul2.v
+#         Searched libraries:
+#             C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/simulation/modelsim/rtl_work
+# Loading work.pll_addCP
+# ** Error: (vsim-3033) C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/pll_addCP.v(66): Instantiation of 'altpll' failed. The design unit was not found.
+#    Time: 0 ns  Iteration: 0  Instance: /vlc_transmit/pll_addCP_m File: C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/pll_addCP.v
+#         Searched libraries:
+#             C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/simulation/modelsim/rtl_work
+# Loading work.uart_rx
+# Loading work.fifo_rx
+# ** Error: (vsim-3033) C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/fifo_rx.v(66): Instantiation of 'dcfifo_mixed_widths' failed. The design unit was not found.
+#    Time: 0 ns  Iteration: 0  Instance: /vlc_transmit/fifo_rx_m File: C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/fifo_rx.v
+#         Searched libraries:
+#             C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/simulation/modelsim/rtl_work
+# Loading work.conv_code
+# ** Error: (vsim-3033) C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/pll_mul2.v(66): Instantiation of 'altpll' failed. The design unit was not found.
+#    Time: 0 ns  Iteration: 0  Instance: /vlc_transmit/conv_code_m/pll_mul2_m File: C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/pll_mul2.v
+#         Searched libraries:
+#             C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/simulation/modelsim/rtl_work
+# Loading work.qam16
+# Loading work.RAM_real
+# ** Error: (vsim-3033) C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/RAM_real.v(68): Instantiation of 'altsyncram' failed. The design unit was not found.
+#    Time: 0 ns  Iteration: 0  Instance: /vlc_transmit/qam16_m/RAM_real_m File: C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/RAM_real.v
+#         Searched libraries:
+#             C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/simulation/modelsim/rtl_work
+# Loading work.RAM_imag
+# ** Error: (vsim-3033) C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/RAM_imag.v(68): Instantiation of 'altsyncram' failed. The design unit was not found.
+#    Time: 0 ns  Iteration: 0  Instance: /vlc_transmit/qam16_m/RAM_imag_m File: C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/RAM_imag.v
+#         Searched libraries:
+#             C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/simulation/modelsim/rtl_work
+# Loading work.RAM_ctrl
+# ** Error: (vsim-3033) C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/vlc_transmit.v(121): Instantiation of 'fft_ip' failed. The design unit was not found.
+#    Time: 0 ns  Iteration: 0  Instance: /vlc_transmit File: C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/vlc_transmit.v
+#         Searched libraries:
+#             C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/simulation/modelsim/rtl_work
+# Loading work.fft_ctrl
+# Loading work.add_CP
+# Loading work.ROM_syn
+# ** Error: (vsim-3033) C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/ROM_syn.v(59): Instantiation of 'altsyncram' failed. The design unit was not found.
+#    Time: 0 ns  Iteration: 0  Instance: /vlc_transmit/add_CP_m/ROM_syn_m File: C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/ROM_syn.v
+#         Searched libraries:
+#             C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/simulation/modelsim/rtl_work
+# Loading work.RAM_addcp
+# ** Error: (vsim-3033) C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/RAM_addcp.v(68): Instantiation of 'altsyncram' failed. The design unit was not found.
+#    Time: 0 ns  Iteration: 0  Instance: /vlc_transmit/add_CP_m/RAM_addcp_m File: C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/RAM_addcp.v
+#         Searched libraries:
+#             C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/simulation/modelsim/rtl_work
+# Loading work.addcp_ctrl
+# Error loading design
+# Loading project test_transmit

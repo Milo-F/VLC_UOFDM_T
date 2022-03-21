@@ -1,0 +1,16 @@
+Fitter Status : Successful - Wed May 19 15:06:21 2021
+Quartus II 64-Bit Version : 15.0.0 Build 145 04/22/2015 SJ Full Version
+Revision Name : vlc_transmit
+Top-level Entity Name : vlc_transmit
+Family : Cyclone IV E
+Device : EP4CE15F23C8
+Timing Models : Final
+Total logic elements : 6,717 / 15,408 ( 44 % )
+    Total combinational functions : 4,490 / 15,408 ( 29 % )
+    Dedicated logic registers : 5,506 / 15,408 ( 36 % )
+Total registers : 5506
+Total pins : 12 / 344 ( 3 % )
+Total virtual pins : 0
+Total memory bits : 297,987 / 516,096 ( 58 % )
+Embedded Multiplier 9-bit elements : 24 / 112 ( 21 % )
+Total PLLs : 1 / 4 ( 25 % )

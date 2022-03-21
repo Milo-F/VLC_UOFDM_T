@@ -1,0 +1,199 @@
+module qam16(clk, clk_div2, clk_mul2, reset, start_run, data_in, I_real, Q_imag, start_fft, frame_len);
+
+parameter [3:0] databit = 12; //数据位数
+
+input clk;
+input clk_div2;
+input clk_mul2;
+input reset;
+input start_run;
+input data_in;      	 	//输入编码后二进制序列,100MHz
+output [databit-1:0] I_real; 	//输出16QAM信号,50MHz
+output [databit-1:0] Q_imag;
+output start_fft;    	//开始fft运算标志位
+output [9:0] frame_len; //帧长
+
+parameter [9:0] Subcarr_num = 64; //子载波数目
+assign frame_len = Subcarr_num * 10'd2;
+
+//串并转换
+reg [1:0] cnt;
+reg [3:0] x_t,x_t_1;
+always @(posedge clk_mul2 or negedge reset) begin
+   if(!reset) begin
+		 x_t <= 0;
+		 x_t_1 <= 0;
+		 cnt <= 0;
+	end
+	else if(start_run == 1) begin
+		cnt <= cnt + 1'b1;
+		x_t_1[3:0] <= {x_t_1[2:0], data_in};
+		if(cnt == 1)
+			x_t <= x_t_1;
+	end
+end
+
+//16QAM映射
+reg signed[2:0] Isignal;
+reg signed[2:0] Qsignal;
+always @(posedge clk_mul2 or negedge reset) begin
+   if(!reset) begin
+     Isignal <= 0;
+	  Qsignal <= 0;
+	end
+	else if(start_run == 1) begin	           //00 -- -3
+		   case(x_t)                          //01 -- -1
+		     4'b0000: begin                   //11 --  1
+				 Isignal <= -3'd3;              //10 --  3
+				 Qsignal <= -3'd3;			 
+			  end
+		     4'b0001: begin  
+				 Isignal <= -3'd3;
+				 Qsignal <= -3'd1;
+			  end
+		     4'b0010: begin 
+				 Isignal <= -3'd3;
+				 Qsignal <=  3'd3;		  
+			  end
+		     4'b0011: begin 
+				 Isignal <= -3'd3;
+				 Qsignal <=  3'd1;			  
+			  end
+		     4'b0100: begin 
+				 Isignal <= -3'd1;
+				 Qsignal <= -3'd3;					  
+			  end
+		     4'b0101: begin 
+				 Isignal <= -3'd1;
+				 Qsignal <= -3'd1;				  
+			  end
+		     4'b0110: begin
+				 Isignal <= -3'd1;
+				 Qsignal <=  3'd3;			  
+			  end
+		     4'b0111: begin  
+				 Isignal <= -3'd1;
+				 Qsignal <=  3'd1;			  
+			  end
+		     4'b1000: begin
+				 Isignal <=  3'd3;
+				 Qsignal <= -3'd3;	  
+			  end
+		     4'b1001: begin 
+				 Isignal <=  3'd3;
+				 Qsignal <= -3'd1;				  
+			  end
+		     4'b1010: begin 
+				 Isignal <=  3'd3;
+				 Qsignal <=  3'd3;			  
+			  end
+		     4'b1011: begin
+				 Isignal <=  3'd3;
+				 Qsignal <=  3'd1;				  
+			  end
+		     4'b1100: begin 
+				 Isignal <=  3'd1;
+				 Qsignal <= -3'd3;	  
+			  end
+		     4'b1101: begin 
+				 Isignal <=  3'd1;
+				 Qsignal <= -3'd1;				  
+			  end	
+		     4'b1110: begin
+				 Isignal <=  3'd1;
+				 Qsignal <=  3'd3;				  
+			  end	
+		     4'b1111: begin 
+				 Isignal <=  3'd1;
+				 Qsignal <=  3'd1;	
+			  end	
+           default: begin
+				 Isignal <=  3'd0;
+				 Qsignal <=  3'd0;		
+           end			  
+		 endcase
+	end
+end
+
+
+//帧结构调整
+reg [8:0] iii;
+reg [7:0] code_cnt;
+reg [2:0] I_reg [Subcarr_num*2-1:0]; //128个I路寄存单元
+reg [2:0] Q_reg [Subcarr_num*2-1:0]; //128个Q路寄存单元
+reg [2:0] I_reg_tmp [Subcarr_num*2-1:0]; //128个I路寄存单元
+reg [2:0] Q_reg_tmp [Subcarr_num*2-1:0]; //128个Q路寄存单元
+wire [databit-1:0] I_real; //ifft序列实部
+wire [databit-1:0] Q_imag; //ifft序列虚部
+always @(posedge clk_div2 or negedge reset) begin
+	if(!reset) begin
+		code_cnt <= -8'd2;
+	end
+	else if(start_run == 1) begin
+		if(code_cnt == Subcarr_num-1)
+			code_cnt <= 0;
+		else
+			code_cnt <= code_cnt + 1'b1;
+	end
+end
+
+//帧序号:      0,  1,  2,…,  63,     64,   65,…, 126, 127
+//帧结构: Re[X0], X1, X2,…, X63, Im[X0], X63*,…, X2*, X1*
+always @(posedge clk_div2 or negedge reset) begin
+	if(!reset) begin
+		for(iii=0;iii<Subcarr_num*2;iii=iii+1'b1) begin
+			I_reg[iii] <= 0;
+			Q_reg[iii] <= 0;
+			I_reg_tmp[iii] <= 0;
+			Q_reg_tmp[iii] <= 0;
+		end
+	end
+	else if(start_run == 1) begin	
+		if(code_cnt == 7'd0) begin
+			for(iii=0;iii<Subcarr_num*2;iii=iii+1'b1) begin
+				I_reg_tmp[iii] <= I_reg[iii];
+				Q_reg_tmp[iii] <= Q_reg[iii];
+			end
+			I_reg[code_cnt] <= Isignal;
+			Q_reg[code_cnt] <= 0;
+			I_reg[Subcarr_num] <= Qsignal;
+			Q_reg[Subcarr_num] <= 0;
+		end
+		else if(code_cnt >= 7'd1 && code_cnt <= Subcarr_num-1) begin
+			I_reg[code_cnt] <= Isignal;
+			Q_reg[code_cnt] <= Qsignal;
+			I_reg[Subcarr_num*2 - code_cnt] <=  Isignal;
+			Q_reg[Subcarr_num*2 - code_cnt] <= -Qsignal;
+		end
+	end
+end
+
+//ifft输入数据流
+reg [7:0] tmp_cnt;
+reg start_fft; //准备进行fft运算的标志
+reg start_fft_aux; //准备进行fft运算的辅助标志
+always @(posedge clk or negedge reset) begin
+	if(!reset) begin
+		tmp_cnt <= Subcarr_num*2-5;
+		start_fft <= 1'd0;
+		start_fft_aux <= 1'b0;
+	end
+	else if(start_run == 1) begin
+		if(tmp_cnt == Subcarr_num*2-1) begin
+			tmp_cnt <= 8'd0;
+			start_fft_aux <= 1'b1;
+		end
+		else begin
+			tmp_cnt <= tmp_cnt + 1'b1;
+			if(tmp_cnt == Subcarr_num*2-3 && start_fft_aux == 1)
+				start_fft <= 1'b1;
+		end
+	end
+end
+//扩展为8位(ifft输入数据为8位)
+assign I_real[2:0] = I_reg_tmp[tmp_cnt];
+assign I_real[databit-1:3] = -I_reg_tmp[tmp_cnt][2];
+assign Q_imag[2:0] = Q_reg_tmp[tmp_cnt];
+assign Q_imag[databit-1:3] = -Q_reg_tmp[tmp_cnt][2];
+
+endmodule

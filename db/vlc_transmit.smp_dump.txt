@@ -1,0 +1,21 @@
+
+State Machine - |vlc_transmit|fft_ip:fft_ip_m|fft_ip_fft_ii_0:fft_ii_0|auk_dspip_r22sdf_top:auk_dspip_r22sdf_top_inst|auk_dspip_avalon_streaming_block_source:source_control_inst|state
+Name state.OUT_3 state.OUT_2 state.OUT_1 state.IDLE 
+state.IDLE 0 0 0 0 
+state.OUT_1 0 0 1 1 
+state.OUT_2 0 1 0 1 
+state.OUT_3 1 0 0 1 
+
+State Machine - |vlc_transmit|uart_rx:uart_rx_m|state
+Name state.S_STOP state.S_BIT7 state.S_BIT6 state.S_BIT5 state.S_BIT4 state.S_BIT3 state.S_BIT2 state.S_BIT1 state.S_BIT0 state.S_START state.S_IDLE 
+state.S_IDLE 0 0 0 0 0 0 0 0 0 0 0 
+state.S_START 0 0 0 0 0 0 0 0 0 1 1 
+state.S_BIT0 0 0 0 0 0 0 0 0 1 0 1 
+state.S_BIT1 0 0 0 0 0 0 0 1 0 0 1 
+state.S_BIT2 0 0 0 0 0 0 1 0 0 0 1 
+state.S_BIT3 0 0 0 0 0 1 0 0 0 0 1 
+state.S_BIT4 0 0 0 0 1 0 0 0 0 0 1 
+state.S_BIT5 0 0 0 1 0 0 0 0 0 0 1 
+state.S_BIT6 0 0 1 0 0 0 0 0 0 0 1 
+state.S_BIT7 0 1 0 0 0 0 0 0 0 0 1 
+state.S_STOP 1 0 0 0 0 0 0 0 0 0 1 

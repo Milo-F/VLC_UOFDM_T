@@ -1,0 +1,403 @@
+C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/addcp_ctrl.v {1 {vlog -work work -novopt -stats=none C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/addcp_ctrl.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module addcp_ctrl
+
+Top level modules:
+	addcp_ctrl
+
+} {} {}} C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/sim/test_transmit.v {1 {vlog -work work -novopt -stats=none C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/sim/test_transmit.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module test_transmit
+
+Top level modules:
+	test_transmit
+
+} {} {}} C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/RAM_real.v {1 {vlog -work work -novopt -stats=none C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/RAM_real.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module RAM_real
+
+Top level modules:
+	RAM_real
+
+} {} {}} C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/sim/altera_mf.v {1 {vlog -work work -novopt -stats=none C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/sim/altera_mf.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module lcell
+-- Compiling module ALTERA_MF_MEMORY_INITIALIZATION
+-- Compiling module ALTERA_MF_HINT_EVALUATION
+-- Compiling module ALTERA_DEVICE_FAMILIES
+-- Compiling module dffp
+-- Compiling module pll_iobuf
+-- Compiling module stx_m_cntr
+-- Compiling module stx_n_cntr
+-- Compiling module stx_scale_cntr
+-- Compiling module MF_pll_reg
+-- Compiling module MF_stratix_pll
+-- Compiling module arm_m_cntr
+-- Compiling module arm_n_cntr
+-- Compiling module arm_scale_cntr
+-- Compiling module MF_stratixii_pll
+-- Compiling module ttn_m_cntr
+-- Compiling module ttn_n_cntr
+-- Compiling module ttn_scale_cntr
+-- Compiling module MF_stratixiii_pll
+-- Compiling module cda_m_cntr
+-- Compiling module cda_n_cntr
+-- Compiling module cda_scale_cntr
+-- Compiling module MF_cycloneiii_pll
+-- Compiling module MF_cycloneiiigl_m_cntr
+-- Compiling module MF_cycloneiiigl_n_cntr
+-- Compiling module MF_cycloneiiigl_scale_cntr
+-- Compiling module cycloneiiigl_post_divider
+-- Compiling module MF_cycloneiiigl_pll
+-- Compiling module altpll
+-- Compiling module altlvds_rx
+-- Compiling module stratix_lvds_rx
+-- Compiling module stratixgx_dpa_lvds_rx
+-- Compiling module stratixii_lvds_rx
+-- Compiling module flexible_lvds_rx
+-- Compiling module stratixiii_lvds_rx
+-- Compiling module stratixiii_lvds_rx_channel
+-- Compiling module stratixiii_lvds_rx_dpa
+-- Compiling module altlvds_tx
+-- Compiling module stratixv_local_clk_divider
+-- Compiling module stratix_tx_outclk
+-- Compiling module stratixii_tx_outclk
+-- Compiling module flexible_lvds_tx
+-- Compiling module dcfifo_dffpipe
+-- Compiling module dcfifo_fefifo
+-- Compiling module dcfifo_async
+-- Compiling module dcfifo_sync
+-- Compiling module dcfifo_low_latency
+-- Compiling module dcfifo_mixed_widths
+-- Compiling module dcfifo
+-- Compiling module altaccumulate
+-- Compiling module altmult_accum
+-- Compiling module altmult_add
+-- Compiling module altfp_mult
+-- Compiling module altsqrt
+-- Compiling module altclklock
+-- Compiling module altddio_in
+-- Compiling module altddio_out
+-- Compiling module altddio_bidir
+-- Compiling module altdpram
+-- Compiling module altsyncram
+-- Compiling module alt3pram
+-- Compiling module parallel_add
+-- Compiling module scfifo
+-- Compiling module altshift_taps
+-- Compiling module a_graycounter
+-- Compiling module altsquare
+-- Compiling module altera_std_synchronizer
+-- Compiling module altera_std_synchronizer_bundle
+-- Compiling module alt_cal
+-- Compiling module alt_cal_mm
+-- Compiling module alt_cal_c3gxb
+-- Compiling module alt_cal_sv
+-- Compiling module alt_cal_av
+-- Compiling module alt_aeq_s4
+-- Compiling module alt_eyemon
+-- Compiling module alt_dfe
+-- Compiling module signal_gen
+-- Compiling module jtag_tap_controller
+-- Compiling module dummy_hub
+-- Compiling module sld_virtual_jtag
+-- Compiling module sld_signaltap
+-- Compiling module altstratixii_oct
+-- Compiling module altparallel_flash_loader
+-- Compiling module altserial_flash_loader
+-- Compiling module sld_virtual_jtag_basic
+-- Compiling module altsource_probe
+
+Top level modules:
+	lcell
+	altpll
+	altlvds_rx
+	altlvds_tx
+	dcfifo
+	altaccumulate
+	altmult_accum
+	altmult_add
+	altfp_mult
+	altsqrt
+	altclklock
+	altddio_bidir
+	altdpram
+	alt3pram
+	parallel_add
+	scfifo
+	altshift_taps
+	a_graycounter
+	altsquare
+	altera_std_synchronizer_bundle
+	alt_cal
+	alt_cal_mm
+	alt_cal_c3gxb
+	alt_cal_sv
+	alt_cal_av
+	alt_aeq_s4
+	alt_eyemon
+	alt_dfe
+	sld_virtual_jtag
+	sld_signaltap
+	altstratixii_oct
+	altparallel_flash_loader
+	altserial_flash_loader
+	sld_virtual_jtag_basic
+	altsource_probe
+
+} {} {}} C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/new_reset.v {1 {vlog -work work -novopt -stats=none C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/new_reset.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module new_reset
+
+Top level modules:
+	new_reset
+
+} {} {}} C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/RAM_ctrl.v {1 {vlog -work work -novopt -stats=none C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/RAM_ctrl.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module RAM_ctrl
+
+Top level modules:
+	RAM_ctrl
+
+} {} {}} C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/uart_rx.v {1 {vlog -work work -novopt -stats=none C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/uart_rx.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module uart_rx
+
+Top level modules:
+	uart_rx
+
+} {} {}} C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/RAM_imag.v {1 {vlog -work work -novopt -stats=none C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/RAM_imag.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module RAM_imag
+
+Top level modules:
+	RAM_imag
+
+} {} {}} C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/sim/m_sequence.v {1 {vlog -work work -novopt -stats=none C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/sim/m_sequence.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module m_sequence
+
+Top level modules:
+	m_sequence
+
+} {} {}} C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/fifo_rx.v {1 {vlog -work work -novopt -stats=none C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/fifo_rx.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module fifo_rx
+
+Top level modules:
+	fifo_rx
+
+} {} {}} C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/ROM_syn.v {1 {vlog -work work -novopt -stats=none C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/ROM_syn.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module ROM_syn
+
+Top level modules:
+	ROM_syn
+
+} {} {}} C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/uart_tx.v {1 {vlog -work work -novopt -stats=none C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/uart_tx.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module uart_tx
+
+Top level modules:
+	uart_tx
+
+} {} {}} C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/fifo_ctrl.v {1 {vlog -work work -novopt -stats=none C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/fifo_ctrl.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module fifo_ctrl
+
+Top level modules:
+	fifo_ctrl
+
+} {} {}} C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/conv_code.v {1 {vlog -work work -novopt -stats=none C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/conv_code.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module conv_code
+
+Top level modules:
+	conv_code
+
+} {} {}} C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/fft_ip/synthesis/fft_ip.v {1 {vlog -work work -novopt -stats=none C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/fft_ip/synthesis/fft_ip.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module fft_ip
+
+Top level modules:
+	fft_ip
+
+} {} {}} C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/Fre_Division.v {1 {vlog -work work -novopt -stats=none C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/Fre_Division.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module Fre_Division
+
+Top level modules:
+	Fre_Division
+
+} {} {}} C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/pll_40MHz.v {1 {vlog -work work -novopt -stats=none C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/pll_40MHz.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module pll_40MHz
+
+Top level modules:
+	pll_40MHz
+
+} {} {}} C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/u_ofdm.v {1 {vlog -work work -novopt -stats=none C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/u_ofdm.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module u_ofdm
+
+Top level modules:
+	u_ofdm
+
+} {} {}} C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/add_CP.v {1 {vlog -work work -novopt -stats=none C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/add_CP.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module add_CP
+
+Top level modules:
+	add_CP
+
+} {} {}} C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/RAM_addcp.v {1 {vlog -work work -novopt -stats=none C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/RAM_addcp.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module RAM_addcp
+
+Top level modules:
+	RAM_addcp
+
+} {} {}} C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/fft_ip/simulation/submodules/fft_ip_fft_ii_0.vo {1 {vlog -work work -novopt -stats=none C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/fft_ip/simulation/submodules/fft_ip_fft_ii_0.vo
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module fft_ip_fft_ii_0
+
+Top level modules:
+	fft_ip_fft_ii_0
+
+} {} {}} C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/fft_ctrl.v {1 {vlog -work work -novopt -stats=none C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/fft_ctrl.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module fft_ctrl
+
+Top level modules:
+	fft_ctrl
+
+} {} {}} C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/sim/sgate.v {1 {vlog -work work -novopt -stats=none C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/sim/sgate.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module oper_add
+-- Compiling module oper_addsub
+-- Compiling module mux21
+-- Compiling module io_buf_tri
+-- Compiling module io_buf_opdrn
+-- Compiling module oper_mult
+-- Compiling module tri_bus
+-- Compiling module oper_div
+-- Compiling module oper_mod
+-- Compiling module oper_left_shift
+-- Compiling module oper_right_shift
+-- Compiling module oper_rotate_left
+-- Compiling module oper_rotate_right
+-- Compiling module oper_less_than
+-- Compiling module oper_mux
+-- Compiling module oper_selector
+-- Compiling module oper_decoder
+-- Compiling module oper_bus_mux
+-- Compiling module oper_latch
+
+Top level modules:
+	oper_add
+	oper_addsub
+	mux21
+	io_buf_tri
+	io_buf_opdrn
+	oper_mult
+	tri_bus
+	oper_div
+	oper_mod
+	oper_left_shift
+	oper_right_shift
+	oper_rotate_left
+	oper_rotate_right
+	oper_less_than
+	oper_mux
+	oper_selector
+	oper_decoder
+	oper_bus_mux
+	oper_latch
+
+} {} {}} C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/sim/220model.v {1 {vlog -work work -novopt -stats=none C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/sim/220model.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module LPM_MEMORY_INITIALIZATION
+-- Compiling module LPM_HINT_EVALUATION
+-- Compiling module LPM_DEVICE_FAMILIES
+-- Compiling module lpm_constant
+-- Compiling module lpm_inv
+-- Compiling module lpm_and
+-- Compiling module lpm_or
+-- Compiling module lpm_xor
+-- Compiling module lpm_bustri
+-- Compiling module lpm_mux
+-- Compiling module lpm_decode
+-- Compiling module lpm_clshift
+-- Compiling module lpm_add_sub
+-- Compiling module lpm_compare
+-- Compiling module lpm_mult
+-- Compiling module lpm_divide
+-- Compiling module lpm_abs
+-- Compiling module lpm_counter
+-- Compiling module lpm_latch
+-- Compiling module lpm_ff
+-- Compiling module lpm_shiftreg
+-- Compiling module lpm_ram_dq
+-- Compiling module lpm_ram_dp
+-- Compiling module lpm_ram_io
+-- Compiling module lpm_rom
+-- Compiling module lpm_fifo
+-- Compiling module lpm_fifo_dc_dffpipe
+-- Compiling module lpm_fifo_dc_fefifo
+-- Compiling module lpm_fifo_dc_async
+-- Compiling module lpm_fifo_dc
+-- Compiling module lpm_inpad
+-- Compiling module lpm_outpad
+-- Compiling module lpm_bipad
+
+Top level modules:
+	lpm_constant
+	lpm_inv
+	lpm_and
+	lpm_or
+	lpm_xor
+	lpm_bustri
+	lpm_mux
+	lpm_decode
+	lpm_clshift
+	lpm_add_sub
+	lpm_compare
+	lpm_mult
+	lpm_divide
+	lpm_abs
+	lpm_counter
+	lpm_latch
+	lpm_ff
+	lpm_shiftreg
+	lpm_ram_dq
+	lpm_ram_dp
+	lpm_ram_io
+	lpm_rom
+	lpm_fifo
+	lpm_fifo_dc
+	lpm_inpad
+	lpm_outpad
+	lpm_bipad
+
+} {} {}} C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/test_conv.v {1 {vlog -work work -novopt -stats=none C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/test_conv.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module test_conv
+
+Top level modules:
+	test_conv
+
+} {} {}} C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/viterbi.v {1 {vlog -work work -novopt -stats=none C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/viterbi.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module viterbi
+
+Top level modules:
+	viterbi
+
+} {} {}} C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/qam16.v {1 {vlog -work work -novopt -stats=none C:/Users/fz.000/Desktop/vlc_system/experiment-underclocking/vlc_transmit/qam16.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module qam16
+
+Top level modules:
+	qam16
+
+} {} {}}

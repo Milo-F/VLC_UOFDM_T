@@ -1,0 +1,24 @@
+# system info fft_ip on 2018.01.28.15:37:24
+system_info:
+name,value
+DEVICE,EP4CE15F23C8
+DEVICE_FAMILY,Cyclone IV E
+GENERATION_ID,1517124984
+#
+#
+# Files generated for fft_ip on 2018.01.28.15:37:24
+files:
+filepath,kind,attributes,module,is_top
+simulation/fft_ip.v,VERILOG,,fft_ip,true
+simulation/submodules/fft_ip_fft_ii_0_opt_twi1.hex,HEX,,fft_ip_fft_ii_0,false
+simulation/submodules/fft_ip_fft_ii_0_opt_twi2.hex,HEX,,fft_ip_fft_ii_0,false
+simulation/submodules/fft_ip_fft_ii_0_opt_twr1.hex,HEX,,fft_ip_fft_ii_0,false
+simulation/submodules/fft_ip_fft_ii_0_opt_twr2.hex,HEX,,fft_ip_fft_ii_0,false
+simulation/submodules/fft_ip_fft_ii_0_opt_twi3.hex,HEX,,fft_ip_fft_ii_0,false
+simulation/submodules/fft_ip_fft_ii_0_opt_twr3.hex,HEX,,fft_ip_fft_ii_0,false
+simulation/submodules/fft_ip_fft_ii_0.vo,VERILOG,,fft_ip_fft_ii_0,false
+#
+# Map from instance-path to kind of module
+instances:
+instancePath,module
+fft_ip.fft_ii_0,fft_ip_fft_ii_0

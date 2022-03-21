@@ -1,0 +1,164 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/fz.000/Desktop/vlc_system(modify)/simulation/vlc_transmit/simulation/modelsim
+Pauk_dspip_lib_pkg
+Z0 DPx4 work 18 auk_dspip_math_pkg 0 22 <l2bFKPfI14Y[51l7=GmH3
+Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z4 w1517125063
+Z5 dC:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/simulation/modelsim
+8C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/fft_ip/synthesis/submodules/auk_dspip_lib_pkg.vhd
+FC:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/fft_ip/synthesis/submodules/auk_dspip_lib_pkg.vhd
+l0
+L28
+VF5LZ_P;W5hWUTdcRT6bb71
+!s100 H0lWGBR`mcQ14BC375gk92
+Z6 OL;C;10.4;61
+31
+!s110 1517664104
+!i10b 1
+!s108 1517664104.073000
+!s90 -reportprogress|300|-93|-work|fft_ip|C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/fft_ip/synthesis/submodules/auk_dspip_lib_pkg.vhd|
+!s107 C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/fft_ip/synthesis/submodules/auk_dspip_lib_pkg.vhd|
+!i113 1
+Z7 o-93 -work fft_ip
+Z8 tExplicit 1
+Pauk_dspip_math_pkg
+R1
+R2
+R3
+R4
+R5
+Z9 8C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/fft_ip/synthesis/submodules/auk_dspip_math_pkg.vhd
+Z10 FC:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/fft_ip/synthesis/submodules/auk_dspip_math_pkg.vhd
+l0
+L51
+V<l2bFKPfI14Y[51l7=GmH3
+!s100 [z_3ODE8b:W7XDJ[_]HTW0
+R6
+31
+b1
+Z11 !s110 1517664103
+!i10b 1
+Z12 !s108 1517664103.323000
+Z13 !s90 -reportprogress|300|-93|-work|fft_ip|C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/fft_ip/synthesis/submodules/auk_dspip_math_pkg.vhd|
+Z14 !s107 C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/fft_ip/synthesis/submodules/auk_dspip_math_pkg.vhd|
+!i113 1
+R7
+R8
+Bbody
+R0
+R1
+R2
+R3
+l0
+L128
+Vco33]4Q9Kk34S3NX9;agj0
+!s100 `941_Ff6o7=GBNnXYB1eU3
+R6
+31
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R7
+R8
+Z15 nbody
+Pauk_dspip_text_pkg
+R1
+R2
+R3
+R4
+R5
+Z16 8C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/fft_ip/synthesis/submodules/auk_dspip_text_pkg.vhd
+Z17 FC:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/fft_ip/synthesis/submodules/auk_dspip_text_pkg.vhd
+l0
+L60
+Vl7@c=QL@BCE=0;3Yf>g^K3
+!s100 D132L>H75ieXQdW840k7O0
+R6
+31
+b1
+Z18 !s110 1517664102
+!i10b 1
+Z19 !s108 1517664102.256000
+Z20 !s90 -reportprogress|300|-93|-work|fft_ip|C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/fft_ip/synthesis/submodules/auk_dspip_text_pkg.vhd|
+Z21 !s107 C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/fft_ip/synthesis/submodules/auk_dspip_text_pkg.vhd|
+!i113 1
+R7
+R8
+Bbody
+DPx4 work 18 auk_dspip_text_pkg 0 22 l7@c=QL@BCE=0;3Yf>g^K3
+R1
+R2
+R3
+l0
+L76
+V=GbCUL`NnX2nhMM]Yd8j=2
+!s100 8<?]li33IkB>fMMF[SR`S2
+R6
+31
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 1
+R7
+R8
+R15
+vfft_ip
+!s110 1517664100
+!i10b 1
+!s100 [2R2b6MXP6]>[ombgOfnE3
+ImQLBQeM3BCo@3eZCAWCX=1
+Z22 VDg1SIo80bB@j0V0VzS_@n1
+R5
+R4
+8C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/fft_ip/synthesis/fft_ip.v
+FC:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/fft_ip/synthesis/fft_ip.v
+L0 6
+Z23 OL;L;10.4;61
+r1
+!s85 0
+31
+!s108 1517664100.270000
+!s107 C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/fft_ip/synthesis/fft_ip.v|
+!s90 -reportprogress|300|-vlog01compat|-work|fft_ip|+incdir+C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/fft_ip/synthesis|C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/fft_ip/synthesis/fft_ip.v|
+!i113 1
+o-vlog01compat -work fft_ip -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+!s92 -vlog01compat -work fft_ip +incdir+C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/fft_ip/synthesis -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vfft_ip_fft_ii_0
+DXx6 sv_std 3 std 0 22 WmjPaeP=7F5?QFXzJ>D[Q2
+!s110 1517664101
+!i10b 1
+!s100 ?fOY9jWOlNN=F_6N>K>^80
+I6dG^U2@F`U2Po?5?VCz8S2
+R22
+!s105 fft_ip_fft_ii_0_sv_unit
+S1
+R5
+w1517125064
+8C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/fft_ip/synthesis/submodules/fft_ip_fft_ii_0.sv
+FC:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/fft_ip/synthesis/submodules/fft_ip_fft_ii_0.sv
+L0 15
+R23
+r1
+!s85 0
+31
+!s108 1517664101.129000
+!s107 C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/fft_ip/synthesis/submodules/fft_ip_fft_ii_0.sv|
+!s90 -reportprogress|300|-sv|-work|fft_ip|+incdir+C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/fft_ip/synthesis/submodules|C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/fft_ip/synthesis/submodules/fft_ip_fft_ii_0.sv|
+!i113 1
+o-sv -work fft_ip -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+!s92 -sv -work fft_ip +incdir+C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/fft_ip/synthesis/submodules -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact

@@ -1,0 +1,397 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/simulation/modelsim
+vadd_CP
+!s110 1517664091
+!i10b 1
+!s100 eRamF423]YFD2bSPG47R32
+IJJjng7_eg?CKb`>X^A_390
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1517548229
+8C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/add_CP.v
+FC:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/add_CP.v
+L0 1
+Z2 OL;L;10.4;61
+r1
+!s85 0
+31
+!s108 1517664091.776000
+!s107 C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/add_CP.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit|C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/add_CP.v|
+!i113 1
+Z3 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z4 !s92 -vlog01compat -work work +incdir+C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+nadd_@c@p
+vaddcp_ctrl
+!s110 1517664096
+!i10b 1
+!s100 RM?eEV8VF0Y:LZKh7:N3:2
+I0O]8W7F;<3k^6H88;C62E3
+R1
+R0
+w1517542165
+8C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/addcp_ctrl.v
+FC:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/addcp_ctrl.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1517664096.649000
+!s107 C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/addcp_ctrl.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit|C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/addcp_ctrl.v|
+!i113 1
+R3
+R4
+vconv_code
+!s110 1517664090
+!i10b 1
+!s100 j5i:XAcmjm=W<Ea@0[5]S0
+I79YA?adOjCib^Kh1@S>fF1
+R1
+R0
+w1517555642
+8C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/conv_code.v
+FC:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/conv_code.v
+L0 4
+R2
+r1
+!s85 0
+31
+!s108 1517664090.847000
+!s107 C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/conv_code.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit|C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/conv_code.v|
+!i113 1
+R3
+R4
+vfft_ctrl
+Z5 !s110 1517664089
+!i10b 1
+!s100 M4WZKBB[H_;]Wi5cB?kZd1
+IKAcH;BY8:Vl33?Yoa_iNm2
+R1
+R0
+w1517548262
+8C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/fft_ctrl.v
+FC:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/fft_ctrl.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1517664089.860000
+!s107 C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/fft_ctrl.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit|C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/fft_ctrl.v|
+!i113 1
+R3
+R4
+vfifo_rx
+!s110 1517664097
+!i10b 1
+!s100 MZA9XdC_eLjR^eAiT2fJI2
+IcWY<4AdDjOh>z`KO:6KY10
+R1
+R0
+w1517662002
+8C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/fifo_rx.v
+FC:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/fifo_rx.v
+Z6 L0 40
+R2
+r1
+!s85 0
+31
+!s108 1517664097.447000
+!s107 C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/fifo_rx.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit|C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/fifo_rx.v|
+!i113 1
+R3
+R4
+vFre_Division
+R5
+!i10b 1
+!s100 :DXOSd8V1IdKP:8oUHDFk1
+IUknIzM8H[J>UP]VLe97WE3
+R1
+R0
+w1517661394
+8C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/Fre_Division.v
+FC:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/Fre_Division.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1517664089.162000
+!s107 C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/Fre_Division.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit|C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/Fre_Division.v|
+!i113 1
+R3
+R4
+n@fre_@division
+vpll_addCP
+!s110 1517664088
+!i10b 1
+!s100 oYf]PEa@:YW]no;zPCXIH0
+ICb=AbL@Y7TLPSKQNo_=E43
+R1
+R0
+w1511699168
+8C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/pll_addCP.v
+FC:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/pll_addCP.v
+Z7 L0 39
+R2
+r1
+!s85 0
+31
+!s108 1517664088.237000
+!s107 C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/pll_addCP.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit|C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/pll_addCP.v|
+!i113 1
+R3
+R4
+npll_add@c@p
+vpll_addCP_altpll
+!s110 1517664099
+!i10b 1
+!s100 >h_hTCo=^neCIS^QMY6V>2
+I>oE_l`AI`moD[=nzUN8>B2
+R1
+R0
+w1517212440
+8C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/db/pll_addcp_altpll.v
+FC:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/db/pll_addcp_altpll.v
+Z8 L0 31
+R2
+r1
+!s85 0
+31
+!s108 1517664098.924000
+!s107 C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/db/pll_addcp_altpll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/db|C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/db/pll_addcp_altpll.v|
+!i113 1
+R3
+Z9 !s92 -vlog01compat -work work +incdir+C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/db -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+npll_add@c@p_altpll
+vpll_mul2
+!s110 1517664087
+!i10b 1
+!s100 N=d_>_VHMmFj1V?G3OD^n1
+I6PhO3C=jX^VM1@c5FeSoU1
+R1
+R0
+w1511612776
+8C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/pll_mul2.v
+FC:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/pll_mul2.v
+R7
+R2
+r1
+!s85 0
+31
+!s108 1517664087.316000
+!s107 C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/pll_mul2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit|C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/pll_mul2.v|
+!i113 1
+R3
+R4
+vpll_mul2_altpll
+!s110 1517664098
+!i10b 1
+!s100 z88A79hIQI[>DKfeAT0do2
+IWfNhj0YGD<fX4BU1Kla[^2
+R1
+R0
+w1517212439
+8C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/db/pll_mul2_altpll.v
+FC:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/db/pll_mul2_altpll.v
+R8
+R2
+r1
+!s85 0
+31
+!s108 1517664098.071000
+!s107 C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/db/pll_mul2_altpll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/db|C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/db/pll_mul2_altpll.v|
+!i113 1
+R3
+R9
+vqam16
+!s110 1517664086
+!i10b 1
+!s100 L5g=QnLBVcjPl3j=UGcci1
+I:J;Bac@9QXzoEY@_I5LCD2
+R1
+R0
+w1517576891
+8C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/qam16.v
+FC:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/qam16.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1517664086.619000
+!s107 C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/qam16.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit|C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/qam16.v|
+!i113 1
+R3
+R4
+vRAM_addcp
+Z10 !s110 1517664095
+!i10b 1
+!s100 ScWm6hAHbm4UFz;h0aKYc2
+IkJ7GMa`e4kYA?QY^QL4>K0
+R1
+R0
+w1517459204
+8C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/RAM_addcp.v
+FC:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/RAM_addcp.v
+R6
+R2
+r1
+!s85 0
+31
+!s108 1517664095.867000
+!s107 C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/RAM_addcp.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit|C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/RAM_addcp.v|
+!i113 1
+R3
+R4
+n@r@a@m_addcp
+vRAM_ctrl
+!s110 1517664094
+!i10b 1
+!s100 >FWi<lQ=GVRXc_JmE>g>z0
+IlZinnVlnPSk3JX>H=DDW23
+R1
+R0
+w1517450664
+8C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/RAM_ctrl.v
+FC:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/RAM_ctrl.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1517664094.149000
+!s107 C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/RAM_ctrl.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit|C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/RAM_ctrl.v|
+!i113 1
+R3
+R4
+n@r@a@m_ctrl
+vRAM_imag
+!s110 1517664093
+!i10b 1
+!s100 l_Le;a0LE7Wk64Mh5N<zC3
+I@J=^]4nOOYhhG0o4Md^n[2
+R1
+R0
+w1517364088
+8C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/RAM_imag.v
+FC:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/RAM_imag.v
+R6
+R2
+r1
+!s85 0
+31
+!s108 1517664093.254000
+!s107 C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/RAM_imag.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit|C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/RAM_imag.v|
+!i113 1
+R3
+R4
+n@r@a@m_imag
+vRAM_real
+!s110 1517664092
+!i10b 1
+!s100 EJQEjBN1m6NK7h3hmRi3R1
+I2iCf>98`4[@Li7OW_8MOC0
+R1
+R0
+w1517362983
+8C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/RAM_real.v
+FC:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/RAM_real.v
+R6
+R2
+r1
+!s85 0
+31
+!s108 1517664092.543000
+!s107 C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/RAM_real.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit|C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/RAM_real.v|
+!i113 1
+R3
+R4
+n@r@a@m_real
+vROM_syn
+R10
+!i10b 1
+!s100 bAKRziE5N0W_l@8=An2z^2
+I8=>nd0hJ=0:C?8FFMZ=:E3
+R1
+R0
+w1517486861
+8C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/ROM_syn.v
+FC:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/ROM_syn.v
+R6
+R2
+r1
+!s85 0
+31
+!s108 1517664095.079000
+!s107 C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/ROM_syn.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit|C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/ROM_syn.v|
+!i113 1
+R3
+R4
+n@r@o@m_syn
+vuart_rx
+!s110 1517664085
+!i10b 1
+!s100 h4GP0liCemCIRjXWCIBjF0
+IBPFRn:ZMD@0Q^=h0JlD9>0
+R1
+R0
+w1517661727
+8C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/uart_rx.v
+FC:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/uart_rx.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1517664085.355000
+!s107 C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/uart_rx.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit|C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/uart_rx.v|
+!i113 1
+R3
+R4
+vvlc_transmit
+!s110 1517664168
+!i10b 1
+!s100 hE[jbT]Pa]EChYb;>`3W40
+IOQ4<83ZIE?M[J28fo>MRT0
+R1
+R0
+w1517663708
+8C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/vlc_transmit.v
+FC:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/vlc_transmit.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1517664168.234000
+!s107 C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/vlc_transmit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit|-L|mtiAvm|-L|mtiRnm|-L|mtiOvm|-L|mtiUvm|-L|mtiUPF|-L|infact|C:/Users/fz.000/Desktop/vlc_system/experiment/vlc_transmit/vlc_transmit.v|
+!i113 1
+R3
+R4

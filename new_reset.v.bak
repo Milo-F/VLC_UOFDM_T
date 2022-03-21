@@ -1,0 +1,15 @@
+module new_reset(
+	input clk,
+	input reset,
+	output reset_n
+);
+
+always @(posedge clk or negedge reset) begin
+   if(!reset) begin
+		cnt <= 0;
+		rdflag <= 0;
+	end
+	else begin
+
+endmodule
+

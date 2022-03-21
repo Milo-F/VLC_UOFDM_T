@@ -1,0 +1,110 @@
+module add_CP(clk, clk_addCP, reset, frame_len, start_run, data_in, data_out, out_valid);
+
+parameter [3:0] databit = 12; //数据位数
+//修改：80-82行syn_code的位数
+
+input clk;
+input clk_addCP;
+input reset;
+input [9:0] frame_len; //帧长
+input start_run;       //开始标志位(ip核开始输出)
+input [databit-1:0] data_in;   //ifft后的序列,50MHz
+output [databit-1:0] data_out; //输出加入CP后的信号,62.5MHz
+output out_valid;      //开始输出标志
+parameter [7:0] CP_len = 32; //循环前缀长度
+parameter [9:0] Frame_Len = 128; //帧长-根据frame_len调整
+
+reg [8:0] iii;
+reg [7:0] addCP_cnt;
+reg [databit-1:0] out_reg [Frame_Len-1:0]; //128个12位输出寄存单元
+reg [databit-1:0] out_reg_addCP [Frame_Len-1+CP_len:0]; //加CP后的输出寄存单元
+reg start_out;     //开始输出标志
+reg start_out_aux; //开始输出辅助标志
+always @(posedge clk or negedge reset) begin
+	if(!reset) begin
+		addCP_cnt <= 0;
+		start_out <= 0;
+	end
+	else if(start_run == 1) begin
+		if(addCP_cnt == Frame_Len-1)
+			addCP_cnt <= 0;
+		else begin
+			addCP_cnt <= addCP_cnt + 1'b1;
+			if(addCP_cnt == 0 && start_out_aux == 1)
+				start_out <= 1'b1;
+		end
+	end
+end
+
+always @(posedge clk or negedge reset) begin
+	if(!reset) begin
+		for(iii=0;iii<Frame_Len;iii=iii+1'b1)
+			out_reg[iii] <= 0;
+		for(iii=0;iii<Frame_Len+CP_len;iii=iii+1'b1)
+			out_reg_addCP[iii] <= 0;
+		start_out_aux <= 0;
+	end
+	else if(start_run == 1) begin	
+		if(addCP_cnt == 7'd0) begin
+			for(iii=0;iii<Frame_Len+CP_len;iii=iii+1'b1) begin
+				if(iii>=0 && iii<=CP_len-1)
+					out_reg_addCP[iii] <= out_reg[Frame_Len-CP_len+iii];
+				else
+					out_reg_addCP[iii] <= out_reg[iii-CP_len];
+			end
+			out_reg[addCP_cnt] <= data_in;
+			start_out_aux <= 1'b1;
+		end
+		else
+			out_reg[addCP_cnt] <= data_in;
+	end
+end
+
+//输出处理
+reg [5:0] jjj;
+reg [9:0] out_cnt;
+reg out_valid; //置高,准备输出结果
+reg syn_ready; //置高,允许输出同步码
+reg [databit-1:0] data_out;           //data_out-12位输出,62.5MHz
+reg [databit-1:0] data_out_reg [12:0]; //输出寄存器
+reg [databit-1:0] syn_code [12:0];     //同步码,插入到输出序列前端
+always @(posedge clk_addCP or negedge reset) begin
+	if(!reset) begin
+		out_cnt <= 0;
+		data_out <= 0;
+		out_valid <= 0;
+		syn_ready <= 1'b1;
+		for(jjj=0;jjj<13;jjj=jjj+1'b1)
+			data_out_reg[jjj] <= 0;
+		//巴克码,n=13: + + + +, + - - +, + - + - +
+		syn_code[0] <= 12'd1; syn_code[1] <=  12'd1; syn_code[2]  <=  12'd1; syn_code[3]  <=  12'd1;
+		syn_code[4] <= 12'd1; syn_code[5] <= -12'd1; syn_code[6]  <= -12'd1; syn_code[7]  <=  12'd1;
+		syn_code[8] <= 12'd1; syn_code[9] <= -12'd1; syn_code[10] <=  12'd1; syn_code[11] <= -12'd1; syn_code[12] <= 12'd1;
+	end
+	else begin
+		if(start_out == 1) begin
+			if(out_cnt == Frame_Len-1+CP_len)
+				out_cnt <= 0;
+			else
+				out_cnt <= out_cnt + 1'b1;
+		end
+		//寄存器移位
+		for(jjj=0;jjj<12;jjj=jjj+1'b1) 
+			data_out_reg[jjj] <= data_out_reg[jjj+1'b1];
+		data_out_reg[12] <= out_reg_addCP[out_cnt];
+		//数据输出
+		if(start_out == 1) begin
+			if(syn_ready == 1 && out_cnt >= 0 && out_cnt <= 12) begin
+				data_out <= syn_code[out_cnt];
+				out_valid <= 1'b1;
+			end
+			else begin
+				data_out <= data_out_reg[0];
+				syn_ready <= 0;
+			end
+		end
+	end
+end
+
+
+endmodule

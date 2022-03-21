@@ -1,0 +1,10 @@
+PLL_Name	conv_code:conv_code_m|pll_mul2:pll_mul2_m|altpll:altpll_component|pll_mul2_altpll:auto_generated|pll1
+PLLJITTER	30
+PLLSPEmax	84
+PLLSPEmin	-53
+
+PLL_Name	pll_addCP:pll_addCP_m|altpll:altpll_component|pll_addCP_altpll:auto_generated|pll1
+PLLJITTER	35
+PLLSPEmax	84
+PLLSPEmin	-53
+

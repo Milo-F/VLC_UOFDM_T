@@ -1,0 +1,9 @@
+module u_ofdm(
+	input clkin(clk),
+	input clkout(clk_mul2),
+	input reset(reset),
+	input start_run(source_valid),
+	input  [7:0] data_in(source_real),
+	output [7:0] data_out(uofdm_out),
+	output uofdm_valid(uofdm_valid)
+);

@@ -1,0 +1,63 @@
+Info: Starting: Create simulation model
+Info: qsys-generate C:\Users\fz\Desktop\vlc_system\simulation\vlc_transmit\fft_ip.qsys --simulation=VERILOG --allow-mixed-language-simulation --output-directory=C:\Users\fz\Desktop\vlc_system\simulation\vlc_transmit\fft_ip\simulation --family="Cyclone IV E" --part=EP4CE15F23C8
+Progress: Loading vlc_transmit/fft_ip.qsys
+Progress: Reading input file
+Progress: Adding fft_ii_0 [altera_fft_ii 15.0]
+Progress: Parameterizing module fft_ii_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: fft_ip: Generating fft_ip "fft_ip" for SIM_VERILOG
+Warning: Parallel compilation is not licensed and has been disabled
+Info: fft_ii_0: Created simgen file at: C:/Users/fz/AppData/Local/Temp/alt7559_6220848029034275250.dir/0001_fft_ii_0_gen/fft_ip_fft_ii_0.vo
+Info: fft_ii_0: "fft_ip" instantiated altera_fft_ii "fft_ii_0"
+Info: fft_ip: Done "fft_ip" with 2 modules, 8 files
+Info: ip-generate succeeded.
+Info: Finished: Create simulation model
+Info: Starting: Create Modelsim Project.
+Info: sim-script-gen --spd=C:\Users\fz\Desktop\vlc_system\simulation\vlc_transmit\fft_ip\fft_ip.spd --output-directory=C:/Users/fz/Desktop/vlc_system/simulation/vlc_transmit/fft_ip/simulation/ --use-relative-paths=true
+Info: Doing: ip-make-simscript --spd=C:\Users\fz\Desktop\vlc_system\simulation\vlc_transmit\fft_ip\fft_ip.spd --output-directory=C:/Users/fz/Desktop/vlc_system/simulation/vlc_transmit/fft_ip/simulation/ --use-relative-paths=true
+Info: Generating the following file(s) for MODELSIM simulator in C:/Users/fz/Desktop/vlc_system/simulation/vlc_transmit/fft_ip/simulation/ directory:
+Info: 	mentor/msim_setup.tcl
+Info: Generating the following file(s) for VCS simulator in C:/Users/fz/Desktop/vlc_system/simulation/vlc_transmit/fft_ip/simulation/ directory:
+Info: 	synopsys/vcs/vcs_setup.sh
+Info: Generating the following file(s) for VCSMX simulator in C:/Users/fz/Desktop/vlc_system/simulation/vlc_transmit/fft_ip/simulation/ directory:
+Info: 	synopsys/vcsmx/synopsys_sim.setup
+Info: 	synopsys/vcsmx/vcsmx_setup.sh
+Info: Generating the following file(s) for NCSIM simulator in C:/Users/fz/Desktop/vlc_system/simulation/vlc_transmit/fft_ip/simulation/ directory:
+Info: 	cadence/cds.lib
+Info: 	cadence/hdl.var
+Info: 	cadence/ncsim_setup.sh
+Info: 	1 .cds.lib files in cadence/cds_libs/ directory
+Info: Generating the following file(s) for RIVIERA simulator in C:/Users/fz/Desktop/vlc_system/simulation/vlc_transmit/fft_ip/simulation/ directory:
+Info: 	aldec/rivierapro_setup.tcl
+Info: Finished: Create Modelsim Project.
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate C:\Users\fz\Desktop\vlc_system\simulation\vlc_transmit\fft_ip.qsys --block-symbol-file --output-directory=C:\Users\fz\Desktop\vlc_system\simulation\vlc_transmit\fft_ip --family="Cyclone IV E" --part=EP4CE15F23C8
+Progress: Loading vlc_transmit/fft_ip.qsys
+Progress: Reading input file
+Progress: Adding fft_ii_0 [altera_fft_ii 15.0]
+Progress: Parameterizing module fft_ii_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: ip-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate C:\Users\fz\Desktop\vlc_system\simulation\vlc_transmit\fft_ip.qsys --synthesis=VERILOG --output-directory=C:\Users\fz\Desktop\vlc_system\simulation\vlc_transmit\fft_ip\synthesis --family="Cyclone IV E" --part=EP4CE15F23C8
+Progress: Loading vlc_transmit/fft_ip.qsys
+Progress: Reading input file
+Progress: Adding fft_ii_0 [altera_fft_ii 15.0]
+Progress: Parameterizing module fft_ii_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: fft_ip: Generating fft_ip "fft_ip" for QUARTUS_SYNTH
+Info: fft_ii_0: "fft_ip" instantiated altera_fft_ii "fft_ii_0"
+Info: fft_ip: Done "fft_ip" with 2 modules, 51 files
+Info: ip-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

@@ -1,0 +1,164 @@
+module vlc_transmit(clk, reset, data_in, data_out, I_real, Q_imag, source_exp, source_real, source_imag);
+
+parameter [3:0] databit = 12; //数据位数
+//修改：test_transmit, qam16, add_CP模块中的databit值
+//若要改变ifft点数,则修改：qam16->Subcarr_num, fft_ctrl->Sampling_num, add_CP->Frame_Len & CP_len, test_transmit->ifft_in.etc
+
+input clk;
+input reset;
+input data_in; //输入二进制序列,50MHz
+output [databit-1:0] data_out; //输出OFDM信号,62.5MHz
+
+//输出到txt测试用,完成后删除
+output [databit-1:0] I_real; //before ifft
+output [databit-1:0] Q_imag;
+output [5:0] source_exp; //after ifft
+output [databit-1:0] source_real; 
+output [databit-1:0] source_imag;
+
+wire clk_div2;     	 //二分频
+wire clk_mul2;     	 //二倍频
+wire clk_addCP;   	 //加入CP后的时钟
+wire enc_out;      	 //卷积码编码输出,100MHz
+wire [databit-1:0] I_real; 	 //ifft序列实部
+wire [databit-1:0] Q_imag; 	 //ifft序列虚部
+wire start_fft;    	 //开始fft运算的标志
+wire [9:0] frame_len; //帧长
+wire conv_out_valid;  //编码完成,数据开始输出
+wire out_valid;       //调制完成,开始输出标志
+
+//二分频
+Fre_Division Fre_Division_m
+(
+	.CP_in(clk), 
+	.reset(reset), 
+	.fre_div(8'd2), 
+	.CP_out(clk_div2)
+);
+
+//二倍频
+pll_mul2 pll_mul2_m
+(
+	.areset(~reset),
+	.inclk0(clk),
+	.c0(clk_mul2),
+	.locked()
+);
+
+//加入CP后的时钟
+pll_addCP pll_addCP_m
+(
+	.areset(~reset),
+	.inclk0(clk),
+	.c0(clk_addCP),
+	.locked()
+);
+
+//(2,1,3)卷积码编码,码速加倍
+conv_code conv_code_m
+(
+	.clk(clk), 
+	.reset(reset), 
+	.data_in(data_in), 
+	.data_out(enc_out),
+	.conv_out_valid(conv_out_valid)
+);
+
+//16QAM映射
+//输出帧长frame_len,即为ifft运算点数
+qam16 qam16_m
+(
+	.clk(clk), 
+	.clk_div2(clk_div2), 
+	.clk_mul2(clk_mul2), 
+	.reset(reset), 
+	.start_run(conv_out_valid),
+	.data_in(enc_out), 
+	.I_real(I_real), 
+	.Q_imag(Q_imag), 
+	.start_fft(start_fft),
+	.frame_len(frame_len)
+);
+
+//fft模块参数
+//注意：输入输出均为有符号定点数
+wire inverse;            //调制or解调标志,inverse==1?ifft:fft
+wire sink_valid;         //拉高表示通知FFT即将有N个数据输入
+wire sink_sop;           //输入数据起始标记脉冲
+wire sink_eop;           //输入数据结束标记脉冲
+reg [1:0] sink_error;    //指示数据流的错误信息
+reg source_ready;        //可以接收数据
+wire sink_ready;         //FFT模块准备就绪,可以接收数据                                  
+wire [1:0] source_error; //指示数据流的错误信息
+wire source_sop;         //输出数据起始标记
+wire source_eop;         //输出数据结束标记
+wire source_valid;       //置高，准备输出结果
+wire [5:0]  source_exp;  //结果数据缩放因子       
+wire [databit-1:0]  source_real; //变换后输出数据的实部		//fft:  ans=ans*2^(-exp)
+wire [databit-1:0]  source_imag; //变换后输出数据的虚部		//ifft: ans=ans*2^(-exp)/N, N为变换点数   
+
+//输入初始化
+assign inverse = 1'b1; //inverse==1?ifft:fft
+always @(posedge clk or negedge reset) begin
+	if(!reset) begin
+		sink_error <= 2'b00; 
+		source_ready <= 1'b1;
+	end
+	else begin
+		sink_error <= sink_error;
+		source_ready <= source_ready;
+	end
+end
+
+//调用ifft/fft模块
+fft_ip fft_ip_m
+(
+	//输入端
+	.clk(clk),
+	.reset_n(reset),
+	.inverse(inverse),
+	.sink_valid(sink_valid),
+	.sink_sop(sink_sop),
+	.sink_eop(sink_eop),
+	.sink_real(I_real),
+	.sink_imag(Q_imag),
+	.sink_error(sink_error),
+	.source_ready(source_ready),
+	//输出端
+	.sink_ready(sink_ready),
+	.source_error(source_error),
+	.source_sop(source_sop),
+	.source_eop(source_eop),
+	.source_valid(source_valid),
+	.source_exp(source_exp),
+	.source_real(source_real),
+	.source_imag(source_imag)
+);
+
+fft_ctrl fft_ctrl_m
+(
+	.clk(clk),
+	.reset(reset),
+	.start_run(start_fft),  //开始进行fft运算
+	.sink_ready(sink_ready), //FFT模块准备就绪,可以接收数据
+	.sink_sop(sink_sop),     //输出数据起始标记
+	.sink_eop(sink_eop),     //输出数据结束标记
+	.sink_valid(sink_valid)  //拉高表示通知FFT即将有N个数据输入
+);
+
+//添加循环前缀
+add_CP add_CP_m
+(
+	.clk(clk), 
+	.clk_addCP(clk_addCP), 
+	.reset(reset), 
+	.frame_len(frame_len), 
+	.start_run(source_valid),
+	.data_in(source_real), 
+	.data_out(data_out),
+	.out_valid(out_valid)
+);
+
+	
+endmodule
+

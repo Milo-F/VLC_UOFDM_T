@@ -1,0 +1,5 @@
+module fifo_ctrl(
+
+);
+
+endmodule

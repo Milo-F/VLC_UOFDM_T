@@ -1,0 +1,15 @@
+module RAM_ctrl (
+	input clk,
+	input reset,
+	input start_run,
+	output wren_real,
+	output wren_imag,
+	output [6:0] rdaddress_real,
+	output [6:0] rdaddress_imag,
+	output [6:0] wraddress_real,
+	output [6:0] wraddress_imag,
+	output start_fft
+);
+
+
+endmodule
